@@ -1,0 +1,301 @@
+{
+  "schema_version": 2,
+  "updated_at": "2026-09-13",
+  "owner": "honestTai",
+  "brand": "HRouter",
+  "service_url": "https://hrouter.net/home",
+  "projects": [
+    {
+      "slug": "HRouter-Desktop",
+      "name": "HRouter Desktop",
+      "category": "ai-apps",
+      "repository": "https://github.com/honestTai/HRouter-Desktop",
+      "tagline": {
+        "zh": "一个 Key，配置你的 AI 编程工具。",
+        "en": "One key. Your AI coding tools, configured."
+      },
+      "description": {
+        "zh": "把模型识别、路由配置和用量查询放进一个桌面客户端，减少在不同工具的配置文件之间来回切换。",
+        "en": "Discover models, configure routing, and track usage in one desktop app instead of juggling configuration files."
+      },
+      "audience": {
+        "zh": "同时使用多个 AI 编程工具，希望集中配置模型与查看用量的开发者。",
+        "en": "Developers who use multiple AI coding tools and want a central place for model configuration and usage."
+      },
+      "primary_cta": {
+        "label": "下载客户端 / Downloads",
+        "url": "https://github.com/honestTai/HRouter-Desktop/releases"
+      },
+      "model_dependency": "hrouter-required",
+      "service_url": "https://hrouter.net/home",
+      "readme_url": "https://github.com/honestTai/HRouter-Desktop/blob/main/README.md",
+      "display": true,
+      "display_order": 1,
+      "featured": true,
+      "repository_status": "public",
+      "last_content_reviewed_at": "2026-09-13",
+      "license": "MIT",
+      "documentation_url": "https://github.com/honestTai/HRouter-Desktop/blob/main/README.md",
+      "download_url": "https://github.com/honestTai/HRouter-Desktop/releases/latest",
+      "demo_url": null,
+      "supported_platforms": [
+        "Windows x64",
+        "macOS Universal"
+      ],
+      "verified_release": "v0.2.15",
+      "installer_urls": {
+        "HRouter_0.2.15_universal.dmg": "https://github.com/honestTai/HRouter-Desktop/releases/download/v0.2.15/HRouter_0.2.15_universal.dmg",
+        "HRouter_0.2.15_x64-setup.exe": "https://github.com/honestTai/HRouter-Desktop/releases/download/v0.2.15/HRouter_0.2.15_x64-setup.exe"
+      }
+    },
+    {
+      "slug": "rent-project",
+      "name": "Rent Project · 支付宝租赁系统",
+      "category": "business",
+      "repository": "https://github.com/honestTai/rent-project",
+      "tagline": {
+        "zh": "让商品、租赁订单、合同与履约，在一套系统里协同。",
+        "en": "Bring rental products, orders, contracts, and fulfillment together."
+      },
+      "description": {
+        "zh": "围绕租赁业务组织商品、订单、分期账单、电子合同与经营分析，用统一中台管理权限和配置。",
+        "en": "Organize products, orders, installment bills, electronic contracts, and business analytics with shared access and configuration management."
+      },
+      "audience": {
+        "zh": "需要租赁运营后台、支付宝租赁接入和电子签约工作流的团队与开发者。",
+        "en": "Teams and developers building rental operations with Alipay workflows and electronic contracts."
+      },
+      "primary_cta": {
+        "label": "图文导览 / Visual tour",
+        "url": "https://github.com/honestTai/rent-project/blob/main/docs/SHOWCASE.md"
+      },
+      "model_dependency": "optional-ai",
+      "service_url": "https://hrouter.net/home",
+      "readme_url": "https://github.com/honestTai/rent-project/blob/main/README.md",
+      "display": true,
+      "display_order": 2,
+      "featured": true,
+      "repository_status": "public",
+      "last_content_reviewed_at": "2026-09-13",
+      "license": "AGPL-3.0",
+      "documentation_url": "https://honesttai.github.io/rent-project/",
+      "download_url": "https://github.com/honestTai/rent-project/releases/latest",
+      "demo_url": "https://github.com/honestTai/rent-project/blob/main/docs/SHOWCASE.md",
+      "supported_platforms": [],
+      "demo_type": "static-visual-tour"
+    },
+    {
+      "slug": "geo-console",
+      "name": "ZZ Geo",
+      "category": "ai-apps",
+      "repository": "https://github.com/honestTai/geo-console",
+      "tagline": {
+        "zh": "品牌有没有出现在 AI 回答里？用证据看清，再动手优化。",
+        "en": "Is your brand showing up in AI answers? Find the evidence, then improve."
+      },
+      "description": {
+        "zh": "把品牌提及、回答来源、官网审计、内容整改与复测报告放在同一套工作台里，让每次优化都能回到具体问题和原始证据。",
+        "en": "Bring brand mentions, answer sources, website audits, content improvements, and retest reports into one evidence-led workspace."
+      },
+      "audience": {
+        "zh": "品牌运营、内容团队与 GEO 服务机构。",
+        "en": "Brand teams, content teams, and GEO service providers."
+      },
+      "primary_cta": {
+        "label": "交互演示 / Interactive demo",
+        "url": "https://www.honesttai.com/interactive/preview.html"
+      },
+      "model_dependency": "provider-configured",
+      "service_url": "https://hrouter.net/home",
+      "readme_url": "https://github.com/honestTai/geo-console/blob/main/README.md",
+      "display": true,
+      "display_order": 3,
+      "featured": true,
+      "repository_status": "public",
+      "last_content_reviewed_at": "2026-09-13",
+      "license": "AGPL-3.0",
+      "documentation_url": "https://www.honesttai.com/help/",
+      "download_url": null,
+      "demo_url": "https://www.honesttai.com/interactive/preview.html",
+      "supported_platforms": [],
+      "demo_type": "interactive-preview"
+    },
+    {
+      "slug": "seehtml-ai",
+      "name": "SeeHTML AI",
+      "category": "ai-apps",
+      "repository": "https://github.com/honestTai/seehtml-ai",
+      "tagline": {
+        "zh": "从一个想法，到可预览的 HTML、演示文稿和视频。",
+        "en": "From an idea to HTML, presentations, and video."
+      },
+      "description": {
+        "zh": "在本地项目中描述需求，让 AI 生成或修改 HTML，边预览边调整，再导出 PPTX、MP4 或图片。",
+        "en": "Describe what you need in a local project, create or refine HTML with AI, preview the result, and export to PPTX, MP4, or images."
+      },
+      "audience": {
+        "zh": "需要制作演示、动画与可视化内容的创作者和开发者。",
+        "en": "Creators and developers building presentations, animations, and visual content."
+      },
+      "primary_cta": {
+        "label": "下载桌面版 / Desktop releases",
+        "url": "https://github.com/honestTai/seehtml-ai/releases"
+      },
+      "model_dependency": "provider-configured",
+      "service_url": "https://hrouter.net/home",
+      "readme_url": "https://github.com/honestTai/seehtml-ai/blob/open-source/README.md",
+      "display": true,
+      "display_order": 4,
+      "featured": false,
+      "repository_status": "public",
+      "last_content_reviewed_at": "2026-09-13",
+      "license": "MIT",
+      "documentation_url": "https://github.com/honestTai/seehtml-ai/blob/open-source/README.md",
+      "download_url": "https://github.com/honestTai/seehtml-ai/releases/latest",
+      "demo_url": null,
+      "supported_platforms": [
+        "Windows x64"
+      ]
+    },
+    {
+      "slug": "hrouter-market-pulse",
+      "name": "HRouter Market Pulse",
+      "category": "plugins-workflows",
+      "repository": "https://github.com/honestTai/hrouter-market-pulse",
+      "tagline": {
+        "zh": "把行情、公告与研究记录，放到同一个工作台。",
+        "en": "Your quotes, filings, and research notes—in one workspace."
+      },
+      "description": {
+        "zh": "不只看一张涨跌表：在中英文工作台里查看持仓、核对行情、跟踪异动和公告，并保留判断与复盘记录。",
+        "en": "Go beyond a price table: review holdings, cross-check quotes, follow alerts and filings, and keep a record of your reasoning."
+      },
+      "audience": {
+        "zh": "希望结合可复核数据与 AI 整理 A 股、港股和美股研究的用户。",
+        "en": "Researchers who want verifiable data and AI-assisted workflows for mainland China, Hong Kong, and US equities."
+      },
+      "primary_cta": {
+        "label": "下载插件 / Plugin releases",
+        "url": "https://github.com/honestTai/hrouter-market-pulse/releases"
+      },
+      "model_dependency": "host-model",
+      "service_url": "https://hrouter.net/home",
+      "readme_url": "https://github.com/honestTai/hrouter-market-pulse/blob/main/README.md",
+      "display": true,
+      "display_order": 5,
+      "featured": false,
+      "repository_status": "public",
+      "last_content_reviewed_at": "2026-09-13",
+      "license": "MIT",
+      "documentation_url": "https://github.com/honestTai/hrouter-market-pulse/blob/main/README.md",
+      "download_url": "https://github.com/honestTai/hrouter-market-pulse/releases/latest",
+      "demo_url": null,
+      "supported_platforms": []
+    },
+    {
+      "slug": "seedance-movie-mcp",
+      "name": "Seedance Movie MCP",
+      "category": "plugins-workflows",
+      "repository": "https://github.com/honestTai/seedance-movie-mcp",
+      "tagline": {
+        "zh": "把故事拆成分镜，把生成片段接成视频。",
+        "en": "Turn stories into scenes, and generated clips into video."
+      },
+      "description": {
+        "zh": "从故事和长文本生成分镜计划，确认后运行有界并行任务，下载片段、拼接视频，并保留供后续剪辑使用的 manifest。",
+        "en": "Plan scenes from a story, approve the prompts, run bounded parallel tasks, download and assemble clips, and keep a manifest for further editing."
+      },
+      "audience": {
+        "zh": "希望在 MCP 工作流中组织火山方舟视频生成任务的创作者与开发者。",
+        "en": "Creators and developers orchestrating Volcengine Ark video generation through MCP."
+      },
+      "primary_cta": {
+        "label": "快速开始 / Quick start",
+        "url": "https://github.com/honestTai/seedance-movie-mcp#quick-start--快速开始"
+      },
+      "model_dependency": "ark-required",
+      "service_url": "https://hrouter.net/home",
+      "readme_url": "https://github.com/honestTai/seedance-movie-mcp/blob/main/README.md",
+      "display": true,
+      "display_order": 6,
+      "featured": false,
+      "repository_status": "public",
+      "last_content_reviewed_at": "2026-09-13",
+      "license": "MIT",
+      "documentation_url": "https://github.com/honestTai/seedance-movie-mcp/blob/main/README.md",
+      "download_url": null,
+      "demo_url": null,
+      "supported_platforms": []
+    },
+    {
+      "slug": "tauri-markdown-reader",
+      "name": "Markdown Reader",
+      "category": "ai-apps",
+      "repository": "https://github.com/honestTai/tauri-markdown-reader",
+      "tagline": {
+        "zh": "让散落在项目里的 Markdown，成为好找、好读、好交付的文档。",
+        "en": "Make project Markdown easy to find, read, and deliver."
+      },
+      "description": {
+        "zh": "打开本地目录，搜索与阅读文档，进行轻量编辑，再导出 Word 或 PDF。文件留在磁盘上，工作围绕你的项目展开。",
+        "en": "Open a local folder, search and read your docs, make light edits, and export to Word or PDF. Your files stay on disk."
+      },
+      "audience": {
+        "zh": "经常阅读 README、技术方案、产品文档与会议笔记的开发者和团队。",
+        "en": "Developers and teams working with READMEs, technical plans, product docs, and meeting notes."
+      },
+      "primary_cta": {
+        "label": "下载应用 / App releases",
+        "url": "https://github.com/honestTai/tauri-markdown-reader/releases"
+      },
+      "model_dependency": "not-required",
+      "service_url": "https://hrouter.net/home",
+      "readme_url": "https://github.com/honestTai/tauri-markdown-reader/blob/main/README.md",
+      "display": true,
+      "display_order": 7,
+      "featured": false,
+      "repository_status": "public",
+      "last_content_reviewed_at": "2026-09-13",
+      "license": "MIT",
+      "documentation_url": "https://github.com/honestTai/tauri-markdown-reader/blob/main/README.md",
+      "download_url": "https://github.com/honestTai/tauri-markdown-reader/releases/latest",
+      "demo_url": null,
+      "supported_platforms": []
+    },
+    {
+      "slug": "faliang-codex-ex",
+      "name": "WeChat Writing Workflow · 公众号写作工作流",
+      "category": "plugins-workflows",
+      "repository": "https://github.com/honestTai/faliang-codex-ex",
+      "tagline": {
+        "zh": "从素材到公众号草稿，把写作流程接起来。",
+        "en": "Connect the steps from source material to a WeChat draft."
+      },
+      "description": {
+        "zh": "让 Codex 帮你整理初稿，在 WeMD 中审稿与调整排版，确认后再通过微信官方接口创建草稿，减少来回复制与转换。",
+        "en": "Draft with Codex, review and format in WeMD, then create a draft through the official WeChat API after confirmation."
+      },
+      "audience": {
+        "zh": "用 Codex 辅助写作、希望保留人工审稿与排版环节的公众号作者。",
+        "en": "WeChat authors using Codex who want to keep human review and layout checks in the workflow."
+      },
+      "primary_cta": {
+        "label": "环境准备 / Setup",
+        "url": "https://github.com/honestTai/faliang-codex-ex#环境准备"
+      },
+      "model_dependency": "host-model",
+      "service_url": "https://hrouter.net/home",
+      "readme_url": "https://github.com/honestTai/faliang-codex-ex/blob/main/README.md",
+      "display": true,
+      "display_order": 8,
+      "featured": false,
+      "repository_status": "public",
+      "last_content_reviewed_at": "2026-09-13",
+      "license": "MIT",
+      "documentation_url": "https://github.com/honestTai/faliang-codex-ex/blob/main/README.md",
+      "download_url": null,
+      "demo_url": null,
+      "supported_platforms": []
+    }
+  ]
+}
