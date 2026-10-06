@@ -1,6 +1,9 @@
 import importlib.util
 from pathlib import Path
 import tempfile
+import io
+import urllib.error
+import os
 import unittest
 from unittest.mock import patch
 import xml.etree.ElementTree as ET
@@ -16,6 +19,22 @@ class MetricsTests(unittest.TestCase):
 
     def test_retained_dates_accumulate_without_inventing_events(self):
         self.assertEqual(m.retained_series(self.repo()['star_dates'], '2026-10-01', '2026-10-06'), [('2026-10-01', 0), ('2026-10-02', 2), ('2026-10-04', 3), ('2026-10-06', 3)])
+
+    def test_cross_repo_denial_falls_back_to_public_request(self):
+        response = unittest.mock.MagicMock()
+        response.__enter__.return_value = io.BytesIO(b'[]')
+        denied = urllib.error.HTTPError('https://api.github.com/test', 403, 'Forbidden', {}, io.BytesIO(b'{}'))
+        with patch.dict(os.environ, {'GH_TOKEN': 'test-only'}), patch.object(m.urllib.request, 'urlopen', side_effect=[denied, response]) as call:
+            self.assertEqual(m.get('/test'), [])
+            self.assertIn('Authorization', call.call_args_list[0].args[0].headers)
+            self.assertNotIn('Authorization', call.call_args_list[1].args[0].headers)
+
+    def test_rate_limit_is_not_bypassed(self):
+        denied = urllib.error.HTTPError('https://api.github.com/test', 403, 'Forbidden', {'X-RateLimit-Remaining': '0'}, io.BytesIO(b'{}'))
+        with patch.dict(os.environ, {'GH_TOKEN': 'test-only'}), patch.object(m.urllib.request, 'urlopen', side_effect=denied) as call:
+            with self.assertRaises(urllib.error.HTTPError):
+                m.get('/test')
+            self.assertEqual(call.call_count, 1)
 
     def test_zero_events(self):
         self.assertEqual(m.retained_series([], '2026-10-01', '2026-10-06'), [('2026-10-01', 0), ('2026-10-06', 0)])

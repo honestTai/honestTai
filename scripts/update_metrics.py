@@ -19,8 +19,8 @@ API = 'https://api.github.com'
 FONT = 'system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif'
 
 
-def get(path):
-    headers = {'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'honestTai-public-portfolio'}
+def get(path, accept='application/vnd.github+json'):
+    headers = {'Accept': accept, 'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'honestTai-public-portfolio'}
     if os.environ.get('GH_TOKEN'):
         headers['Authorization'] = 'Bearer ' + os.environ['GH_TOKEN']
     for attempt in range(4):
@@ -28,6 +28,11 @@ def get(path):
             with urllib.request.urlopen(urllib.request.Request(API + path, headers=headers), timeout=40) as response:
                 return json.load(response)
         except urllib.error.HTTPError as exc:
+            # Installation-scoped Actions tokens can be denied access to other public
+            # repositories. Retry only the same public endpoint without credentials.
+            if exc.code in (403, 404) and 'Authorization' in headers and exc.headers.get('X-RateLimit-Remaining') != '0':
+                del headers['Authorization']
+                continue
             if exc.code not in (429, 500, 502, 503, 504) or attempt == 3:
                 raise
             time.sleep(2 ** attempt * 2)
@@ -220,15 +225,9 @@ def main():
 
 
 def star_pages(path):
-    # Separate timestamp-media request; no global header mutation.
     result = []
     for page in range(1, 10001):
-        headers = {'Accept': 'application/vnd.github.star+json', 'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'honestTai-public-portfolio'}
-        if os.environ.get('GH_TOKEN'):
-            headers['Authorization'] = 'Bearer ' + os.environ['GH_TOKEN']
-        url = f'{API}{path}?per_page=100&page={page}'
-        with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=40) as response:
-            data = json.load(response)
+        data = get(f'{path}?per_page=100&page={page}', accept='application/vnd.github.star+json')
         if not isinstance(data, list) or any('starred_at' not in s for s in data):
             raise ValueError('Stargazer timestamps unavailable; refusing invented history')
         result.extend(data)
