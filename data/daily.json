@@ -1,0 +1,64 @@
+[
+  {
+    "date": "2026-10-06",
+    "observed_at": "2026-10-06T01:32:44Z",
+    "repos": {
+      "awesome-lint": {
+        "stars": 2,
+        "forks": 0
+      },
+      "cc-switch": {
+        "stars": 2,
+        "forks": 0
+      },
+      "faliang-codex-ex": {
+        "stars": 2,
+        "forks": 0
+      },
+      "geo-console": {
+        "stars": 8,
+        "forks": 4
+      },
+      "grad-project-studio": {
+        "stars": 0,
+        "forks": 0
+      },
+      "honestTai": {
+        "stars": 2,
+        "forks": 0
+      },
+      "honestTai-Tool-Xianyu": {
+        "stars": 2,
+        "forks": 0
+      },
+      "HRouter-Desktop": {
+        "stars": 4,
+        "forks": 1
+      },
+      "hrouter-market-pulse": {
+        "stars": 2,
+        "forks": 0
+      },
+      "rent-project": {
+        "stars": 5,
+        "forks": 0
+      },
+      "seedance-movie-mcp": {
+        "stars": 3,
+        "forks": 0
+      },
+      "seehtml-ai": {
+        "stars": 5,
+        "forks": 0
+      },
+      "tauri-markdown-reader": {
+        "stars": 5,
+        "forks": 0
+      },
+      "wechat-shop-netCore": {
+        "stars": 4,
+        "forks": 0
+      }
+    }
+  }
+]

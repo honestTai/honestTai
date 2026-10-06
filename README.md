@@ -1,49 +1,116 @@
 <div align="center">
 
-# HRouter
+[**English**](README.md) · [简体中文](README.zh-CN.md)
 
-**连接 AI 模型，把想法做成工具。**  
-**Connect AI models. Turn ideas into tools.**
+![honestTai — Make useful things.](assets/hero.svg)
 
-[HRouter 官网 · Website](https://hrouter.net/home) · [桌面客户端 · Desktop](https://github.com/honestTai/HRouter-Desktop) · [English](README.en.md)
+**Hi, I'm honestTai — the developer and operator behind HRouter.**  
+I turn day-to-day problems into practical AI tools, business software, skills, and plugins.
+
+[**Explore HRouter ↗**](https://hrouter.net/home) &nbsp; · &nbsp; [Download the desktop app](https://github.com/honestTai/HRouter-Desktop/releases/latest) &nbsp; · &nbsp; [Get in touch](mailto:honest.tai@outlook.com)
 
 </div>
 
-## 关于我 · About me
+## The public workbench
 
-你好，我是 **honestTai**，HRouter 的开发者与运营者。我把实际工作中的需求做成工具，在这里分享 AI 应用、业务系统、Skills 与插件。  
-Hi, I'm **honestTai**, the developer and operator behind HRouter. I build practical AI tools, business software, skills, and plugins.
+![Public repository totals](assets/overview.svg)
 
-## HRouter · AI model routing
+**Every public repository is listed below — including forks.** No private projects are included. Counts are scheduled to refresh daily, not in real time.
 
-**一个密钥，连接多个 AI 模型。** 面向 AI 编程和应用开发，提供模型接入、密钥管理与用量查询。  
-**One key, multiple AI models.** Model access, API key management, and usage tracking for AI coding and app development.
+## Start with these
 
-[了解服务 · Explore HRouter](https://hrouter.net/home) · [下载客户端 · Get the app](https://github.com/honestTai/HRouter-Desktop/releases/latest)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## 精选项目 · Featured projects
+### [HRouter Desktop](https://github.com/honestTai/HRouter-Desktop)
+**Less configuration. More coding.**
 
-| 项目 / Project | 可以做什么 / What you can do | 开始体验 / Start here |
-| --- | --- | --- |
-| [**HRouter Desktop**](https://github.com/honestTai/HRouter-Desktop) | 配置 AI 编程工具、识别模型与查看用量。<br>Configure AI coding tools and track usage. | [Windows / macOS](https://github.com/honestTai/HRouter-Desktop/releases/latest) |
-| [**Rent Project · 支付宝租赁系统**](https://github.com/honestTai/rent-project) | 商品、租赁订单、电子合同、分期账单与运营管理。<br>Rental products, orders, e-signing, bills, and operations. | [图文导览 / Tour](https://github.com/honestTai/rent-project/blob/main/docs/SHOWCASE.md) · [部署 / Deploy](https://github.com/honestTai/rent-project/blob/main/docs/DEPLOYMENT.md) |
-| [**ZZ Geo**](https://github.com/honestTai/geo-console) | 查看 AI 回答中的品牌提及与来源，跟进内容整改和复测。<br>Track AI brand visibility, sources, and content improvements. | [交互演示 / Demo](https://www.honesttai.com/interactive/preview.html) |
+A local-first desktop workbench for AI coding agents, providers, keys, profiles, and model routes. Built on CC Switch, with upstream credits preserved.
 
-## AI 创作与文档 · Creation & documents
+[Download for macOS / Windows →](https://github.com/honestTai/HRouter-Desktop/releases/latest)
 
-- [**SeeHTML AI**](https://github.com/honestTai/seehtml-ai) — AI 生成与预览 HTML，导出 PPTX / MP4。<br>Create HTML with AI and export presentations or video. [下载 / Download](https://github.com/honestTai/seehtml-ai/releases/latest)
-- [**Markdown Reader**](https://github.com/honestTai/tauri-markdown-reader) — 本地文档阅读、搜索与编辑，支持 Word / PDF 导出。<br>Read, search, and edit local docs, then export to Word or PDF. [下载 / Download](https://github.com/honestTai/tauri-markdown-reader/releases/latest)
+</td>
+<td width="50%" valign="top">
 
-## Skills、插件与自动化 · Skills, plugins & automation
+### [ZZ Geo](https://github.com/honestTai/geo-console)
+**Evidence first. Then improve.**
 
-- [**HRouter Market Pulse**](https://github.com/honestTai/hrouter-market-pulse) — A 股、港股和美股研究工作台与 Codex 插件。<br>A market research workbench and Codex plugin for mainland China, Hong Kong, and US equities.
-- [**Seedance Movie MCP**](https://github.com/honestTai/seedance-movie-mcp) — 火山方舟视频生成、分镜任务与片段拼接。<br>Volcengine Ark video generation, scene workflows, and clip assembly.
-- [**公众号写作工作流 / WeChat Writing Workflow**](https://github.com/honestTai/faliang-codex-ex) — 从写稿、WeMD 审稿排版到公众号草稿箱。<br>From writing and WeMD review to WeChat Official Account drafts.
+Understand brand visibility in AI answers, inspect sources, audit websites, and track content improvements. Provider API samples, not consumer-app answers.
+
+[Explore the interactive demo →](https://www.honesttai.com/interactive/preview.html)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [SeeHTML AI](https://github.com/honestTai/seehtml-ai)
+**An idea → HTML → a presentation or video.**
+
+Create and refine HTML with AI in a local workspace, preview the result, and export PPTX, images, or MP4.
+
+[Explore the creative workflow →](https://github.com/honestTai/seehtml-ai)
+
+</td>
+<td width="50%" valign="top">
+
+### [Rent Project](https://github.com/honestTai/rent-project)
+**From a rental order to fulfillment.**
+
+Products, orders, electronic contracts, installment bills, and operations. Server and web apps included; Mini Program frontend not included.
+
+[Take the visual tour →](https://github.com/honestTai/rent-project/blob/main/docs/SHOWCASE.md)
+
+</td>
+</tr>
+</table>
+
+## All public repositories
+
+A complete directory, not just a selection. **Fork** means an upstream-derived repository, not an original project. The trend link opens each project's activity section.
+
+<!-- PUBLIC-REPOS:START -->
+
+| Repository | What it does | Type | Stars | Forks | Trends |
+| :--- | :--- | :--- | ---: | ---: | :---: |
+| [**geo-console**](https://github.com/honestTai/geo-console) | Evidence-led AI visibility, brand mentions, and content improvements. | Project | 8 | 4 | [↗](https://github.com/honestTai/geo-console#project-activity) |
+| [**rent-project**](https://github.com/honestTai/rent-project) | Rental operations, electronic contracts, installment bills, and fulfillment. | Project | 5 | 0 | [↗](https://github.com/honestTai/rent-project#project-activity) |
+| [**seehtml-ai**](https://github.com/honestTai/seehtml-ai) | Create HTML with AI; preview and export presentations, images, and video. | Project | 5 | 0 | [↗](https://github.com/honestTai/seehtml-ai#project-activity) |
+| [**tauri-markdown-reader**](https://github.com/honestTai/tauri-markdown-reader) | Read, search, edit, and export local Markdown to Word or PDF. | Project | 5 | 0 | [↗](https://github.com/honestTai/tauri-markdown-reader#project-activity) |
+| [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | A local-first workbench for AI coding agents, providers, and model routes. | Project | 4 | 1 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
+| [**wechat-shop-netCore**](https://github.com/honestTai/wechat-shop-netCore) | A historical ASP.NET Core shop backend for source exploration. | Project | 4 | 0 | [↗](https://github.com/honestTai/wechat-shop-netCore#project-activity) |
+| [**seedance-movie-mcp**](https://github.com/honestTai/seedance-movie-mcp) | Scene planning, approved video generation, and clip assembly with Ark. | Project | 3 | 0 | [↗](https://github.com/honestTai/seedance-movie-mcp#project-activity) |
+| [**faliang-codex-ex**](https://github.com/honestTai/faliang-codex-ex) | Draft, fact-check, review in WeMD, and prepare WeChat Official Account drafts. | Project | 2 | 0 | [↗](https://github.com/honestTai/faliang-codex-ex#project-activity) |
+| [**honestTai**](https://github.com/honestTai/honestTai) | This bilingual profile, public project directory, and transparent metrics. | Profile | 2 | 0 | [↗](https://github.com/honestTai/honestTai#project-activity) |
+| [**honestTai-Tool-Xianyu**](https://github.com/honestTai/honestTai-Tool-Xianyu) | Listing monitoring, AI-assisted filtering, and configurable notifications. | Project | 2 | 0 | [↗](https://github.com/honestTai/honestTai-Tool-Xianyu#project-activity) |
+| [**hrouter-market-pulse**](https://github.com/honestTai/hrouter-market-pulse) | A market research workbench and Codex plugin for A-share, HK, and US markets. | Project | 2 | 0 | [↗](https://github.com/honestTai/hrouter-market-pulse#project-activity) |
+| [**grad-project-studio**](https://github.com/honestTai/grad-project-studio) | Evidence-linked system design, code, PlantUML, reports, and presentation workflows. | Project | 0 | 0 | [↗](https://github.com/honestTai/grad-project-studio#project-activity) |
+| [**awesome-lint**](https://github.com/honestTai/awesome-lint) | Fork of the linter for Awesome lists. | Fork | 2 | 0 | [↗](https://github.com/honestTai/awesome-lint#project-activity) |
+| [**cc-switch**](https://github.com/honestTai/cc-switch) | Fork of the cross-platform configuration assistant for AI coding tools. | Fork | 2 | 0 | [↗](https://github.com/honestTai/cc-switch#project-activity) |
+
+<!-- PUBLIC-REPOS:END -->
+
+## How I build
+
+- **Useful before flashy.** Tools grounded in actual development, writing, research, and business workflows.
+- **Local where it matters.** Desktop and document tools that work around your own files and projects.
+- **Evidence over claims.** Clearly labeled demo data, explicit limitations, and traceable research outputs.
+- **Credit the foundations.** Upstream projects, licenses, and dependencies remain visible.
+
+## HRouter · model access for builders
+
+I also build and operate [**HRouter**](https://hrouter.net/home): model access, API key management, and usage tracking for AI coding and application development. Explore the service when it fits your workflow; each project's own documentation explains its requirements.
+
+## Project activity
+
+![Profile repository Star and Fork history](assets/metrics/honestTai.svg)
+
+[**Explore all Star / Fork charts →**](data/README.md) · [Observed daily totals](assets/metrics/honestTai-daily.svg) · [Data and methodology](data/METHODOLOGY.md) · [Refresh status](https://github.com/honestTai/honestTai/actions/workflows/public-metrics.yml)
+
+<sub>Historical curves reconstruct currently retained stars and visible forks, not past net totals. Separate daily snapshots start on October 6, 2026. No invented backfill, no third-party stats-image dependency.</sub>
 
 ---
 
-**找到喜欢的项目，试一试；觉得有用，欢迎 Star。**  
-**Explore a project, give it a try, and leave a star if it helps.**
-
-项目反馈请到对应仓库的 Issues；部署、定制与合作可通过 [邮件](mailto:honest.tai@outlook.com) 联系。  
-Share project feedback in Issues, or [email me](mailto:honest.tai@outlook.com) about deployment, customization, and collaboration.
+**Try something useful. Open an issue. Build on it.**  
+For deployment, customization, and collaboration: [honest.tai@outlook.com](mailto:honest.tai@outlook.com).

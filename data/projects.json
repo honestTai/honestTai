@@ -1,0 +1,86 @@
+{
+  "HRouter-Desktop": {
+    "title": "HRouter Desktop",
+    "en": "A local-first workbench for AI coding agents, providers, and model routes.",
+    "zh": "AI 编程工具、供应商配置与模型路由的本地优先工作台。",
+    "category": "AI infrastructure"
+  },
+  "geo-console": {
+    "title": "ZZ Geo",
+    "en": "Evidence-led AI visibility, brand mentions, and content improvements.",
+    "zh": "基于证据的 AI 可见性监测、品牌提及与内容整改。",
+    "category": "Business systems"
+  },
+  "rent-project": {
+    "title": "Rent Project",
+    "en": "Rental operations, electronic contracts, installment bills, and fulfillment.",
+    "zh": "租赁运营、电子合同、分期账单与履约管理。",
+    "category": "Business systems"
+  },
+  "seehtml-ai": {
+    "title": "SeeHTML AI",
+    "en": "Create HTML with AI; preview and export presentations, images, and video.",
+    "zh": "AI 创作 HTML，预览并导出演示文稿、图片与视频。",
+    "category": "Creative tools"
+  },
+  "tauri-markdown-reader": {
+    "title": "Markdown Reader",
+    "en": "Read, search, edit, and export local Markdown to Word or PDF.",
+    "zh": "阅读、搜索、编辑本地 Markdown，导出 Word 或 PDF。",
+    "category": "Creative tools"
+  },
+  "hrouter-market-pulse": {
+    "title": "HRouter Market Pulse",
+    "en": "A market research workbench and Codex plugin for A-share, HK, and US markets.",
+    "zh": "A 股、港股与美股研究工作台及 Codex 插件。",
+    "category": "Skills & plugins"
+  },
+  "seedance-movie-mcp": {
+    "title": "Seedance Movie MCP",
+    "en": "Scene planning, approved video generation, and clip assembly with Ark.",
+    "zh": "火山方舟分镜规划、确认后的视频生成与片段拼接。",
+    "category": "Skills & plugins"
+  },
+  "faliang-codex-ex": {
+    "title": "WeChat Writing Workflow",
+    "en": "Draft, fact-check, review in WeMD, and prepare WeChat Official Account drafts.",
+    "zh": "写稿、事实核验、WeMD 审稿与微信公众号草稿工作流。",
+    "category": "Skills & plugins"
+  },
+  "grad-project-studio": {
+    "title": "Grad Project Studio",
+    "en": "Evidence-linked system design, code, PlantUML, reports, and presentation workflows.",
+    "zh": "串联真实证据的系统设计、代码、PlantUML、报告与答辩工作流。",
+    "category": "Skills & plugins"
+  },
+  "honestTai-Tool-Xianyu": {
+    "title": "Xianyu Toolkit",
+    "en": "Listing monitoring, AI-assisted filtering, and configurable notifications.",
+    "zh": "商品监测、AI 辅助筛选与多渠道通知。",
+    "category": "Automation"
+  },
+  "wechat-shop-netCore": {
+    "title": "WeChat Shop",
+    "en": "A historical ASP.NET Core shop backend for source exploration.",
+    "zh": "用于源码阅读的历史 ASP.NET Core 商城后端。",
+    "category": "Source archive"
+  },
+  "cc-switch": {
+    "title": "CC Switch",
+    "en": "Fork of the cross-platform configuration assistant for AI coding tools.",
+    "zh": "跨平台 AI 编程工具配置助手的 Fork。",
+    "category": "Upstream fork"
+  },
+  "awesome-lint": {
+    "title": "Awesome Lint",
+    "en": "Fork of the linter for Awesome lists.",
+    "zh": "Awesome 清单规范检查工具的 Fork。",
+    "category": "Upstream fork"
+  },
+  "honestTai": {
+    "title": "honestTai / HRouter",
+    "en": "This bilingual profile, public project directory, and transparent metrics.",
+    "zh": "双语个人主页、全部公开项目目录与透明统计。",
+    "category": "Profile"
+  }
+}

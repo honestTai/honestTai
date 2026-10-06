@@ -1,0 +1,268 @@
+{
+  "observed_at": "2026-10-06T01:32:44Z",
+  "source": "https://api.github.com",
+  "repos": [
+    {
+      "name": "awesome-lint",
+      "description": "Linter for Awesome lists",
+      "is_fork": true,
+      "archived": false,
+      "created_at": "2026-05-19T11:22:36Z",
+      "stars": 2,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": null,
+      "pushed_at": "2026-05-19T11:23:37Z",
+      "star_dates": [
+        "2026-09-15T13:09:35Z",
+        "2026-09-16T03:32:16Z"
+      ],
+      "fork_dates": []
+    },
+    {
+      "name": "cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "is_fork": true,
+      "archived": false,
+      "created_at": "2026-03-22T02:29:57Z",
+      "stars": 2,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": null,
+      "pushed_at": "2026-09-27T12:25:41Z",
+      "star_dates": [
+        "2026-09-15T13:09:36Z",
+        "2026-09-16T03:32:19Z"
+      ],
+      "fork_dates": []
+    },
+    {
+      "name": "faliang-codex-ex",
+      "description": "公众号写作、WeMD 审稿与草稿发布工作流 | WeChat writing, WeMD review & draft publishing workflow",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2026-06-01T00:48:12Z",
+      "stars": 2,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-09-13T06:18:54Z",
+      "star_dates": [
+        "2026-09-15T13:09:34Z",
+        "2026-09-16T03:32:15Z"
+      ],
+      "fork_dates": []
+    },
+    {
+      "name": "geo-console",
+      "description": "AI 搜索监测、品牌提及与内容整改工作台 | AI visibility, brand mentions & content improvement",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2026-08-30T12:35:06Z",
+      "stars": 8,
+      "forks": 4,
+      "open_issues_and_prs": 0,
+      "language": "TypeScript",
+      "pushed_at": "2026-10-04T07:47:00Z",
+      "star_dates": [
+        "2026-09-13T03:27:56Z",
+        "2026-09-15T13:09:33Z",
+        "2026-09-16T03:30:27Z",
+        "2026-09-16T03:36:56Z",
+        "2026-09-27T07:37:38Z",
+        "2026-09-28T00:15:02Z",
+        "2026-09-29T11:52:29Z",
+        "2026-09-30T00:31:58Z"
+      ],
+      "fork_dates": [
+        "2026-09-16T03:30:33Z",
+        "2026-09-16T03:30:36Z",
+        "2026-09-16T03:37:06Z",
+        "2026-09-28T00:15:12Z"
+      ]
+    },
+    {
+      "name": "grad-project-studio",
+      "description": "计算机类系统设计工作流插件：代码、PlantUML、报告、截图证据与答辩 PPT。HRouter.net 赞助。",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2026-09-27T08:48:32Z",
+      "stars": 0,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": "Python",
+      "pushed_at": "2026-09-27T09:26:55Z",
+      "star_dates": [],
+      "fork_dates": []
+    },
+    {
+      "name": "honestTai",
+      "description": "HRouter 开源主页：AI 工具、Skills 与插件 | AI tools, skills & plugins by honestTai",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2026-09-13T06:05:13Z",
+      "stars": 2,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": null,
+      "pushed_at": "2026-09-13T06:55:13Z",
+      "star_dates": [
+        "2026-09-15T13:08:41Z",
+        "2026-09-16T03:31:58Z"
+      ],
+      "fork_dates": []
+    },
+    {
+      "name": "honestTai-Tool-Xianyu",
+      "description": "闲鱼自动化工具集 | Xianyu automation toolkit",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2026-05-25T13:49:05Z",
+      "stars": 2,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": "Python",
+      "pushed_at": "2026-09-13T06:19:13Z",
+      "star_dates": [
+        "2026-09-15T13:09:31Z",
+        "2026-09-16T03:32:11Z"
+      ],
+      "fork_dates": []
+    },
+    {
+      "name": "HRouter-Desktop",
+      "description": "A local-first desktop workbench for AI coding agents: providers, keys, models, profiles, routing and usage. Optional HRouter key quick setup. Built on CC Switch.",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2026-08-08T13:26:25Z",
+      "stars": 4,
+      "forks": 1,
+      "open_issues_and_prs": 11,
+      "language": "Rust",
+      "pushed_at": "2026-10-04T13:14:37Z",
+      "star_dates": [
+        "2026-09-15T13:09:26Z",
+        "2026-09-16T03:32:03Z",
+        "2026-09-27T07:38:31Z",
+        "2026-10-04T15:08:47Z"
+      ],
+      "fork_dates": [
+        "2026-09-28T13:15:15Z"
+      ]
+    },
+    {
+      "name": "hrouter-market-pulse",
+      "description": "中英文市场研究工作台与 Codex 插件 | Bilingual market research workbench & Codex plugin",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2026-09-08T10:00:02Z",
+      "stars": 2,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-09-13T06:19:25Z",
+      "star_dates": [
+        "2026-09-15T13:09:30Z",
+        "2026-09-16T03:32:10Z"
+      ],
+      "fork_dates": []
+    },
+    {
+      "name": "rent-project",
+      "description": "支付宝租赁业务管理系统：商品、订单、电子签约、分期账单与运营管理 | Alipay rental operations, e-signing & installment bills",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2026-09-09T14:51:41Z",
+      "stars": 5,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": "Java",
+      "pushed_at": "2026-09-13T06:54:52Z",
+      "star_dates": [
+        "2026-09-14T02:36:54Z",
+        "2026-09-14T02:39:24Z",
+        "2026-09-15T13:09:25Z",
+        "2026-09-16T03:32:02Z",
+        "2026-09-26T14:35:20Z"
+      ],
+      "fork_dates": []
+    },
+    {
+      "name": "seedance-movie-mcp",
+      "description": "火山方舟视频生成 MCP：分镜与片段拼接 | Video-generation MCP for Volcengine Ark with scene workflows",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2026-05-25T05:37:26Z",
+      "stars": 3,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-13T06:19:51Z",
+      "star_dates": [
+        "2026-05-25T05:40:59Z",
+        "2026-09-15T13:09:29Z",
+        "2026-09-16T03:32:10Z"
+      ],
+      "fork_dates": []
+    },
+    {
+      "name": "seehtml-ai",
+      "description": "AI 驱动的 HTML 创作工具，导出 PPTX 与 MP4 | AI HTML workspace with PPTX & MP4 export",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2026-06-16T12:13:07Z",
+      "stars": 5,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-13T06:55:03Z",
+      "star_dates": [
+        "2026-06-26T08:06:35Z",
+        "2026-06-26T23:59:21Z",
+        "2026-06-28T07:01:58Z",
+        "2026-09-15T13:09:24Z",
+        "2026-09-16T03:32:01Z"
+      ],
+      "fork_dates": []
+    },
+    {
+      "name": "tauri-markdown-reader",
+      "description": "本地 Markdown 阅读与编辑，支持 Word/PDF 导出 | Local-first Markdown editor with Word/PDF export",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2026-06-01T08:45:51Z",
+      "stars": 5,
+      "forks": 0,
+      "open_issues_and_prs": 1,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-13T06:20:10Z",
+      "star_dates": [
+        "2026-06-02T09:14:45Z",
+        "2026-06-03T13:44:53Z",
+        "2026-06-04T21:59:42Z",
+        "2026-09-15T13:09:28Z",
+        "2026-09-16T03:32:07Z"
+      ],
+      "fork_dates": []
+    },
+    {
+      "name": "wechat-shop-netCore",
+      "description": "基于 .NET Core 的微信小程序项目 | WeChat Mini Program built with .NET Core",
+      "is_fork": false,
+      "archived": false,
+      "created_at": "2019-07-07T09:22:23Z",
+      "stars": 4,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": "HTML",
+      "pushed_at": "2026-09-13T06:20:20Z",
+      "star_dates": [
+        "2021-04-13T00:56:50Z",
+        "2023-01-31T12:05:36Z",
+        "2026-09-15T13:09:27Z",
+        "2026-09-16T03:32:06Z"
+      ],
+      "fork_dates": []
+    }
+  ]
+}
