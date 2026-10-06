@@ -104,8 +104,7 @@ def panel(series, x, title, color, end, empty_label=None):
     finish = dt.date.fromisoformat(end)
     span = max(1, (finish - begin).days)
     maximum = max(1, max(value for _, value in series))
-    for n in range(3):
-        value = round(maximum * n / 2)
+    for value in sorted({round(maximum * n / 2) for n in range(3)}):
         yy = top + height - height * value / maximum
         out += f'<path d="M{left} {yy}H{left+width}" stroke="#223149" stroke-dasharray="3 5"/>'
         out += text(left-10, yy+4, value, 11, extra='text-anchor="end"')
@@ -136,11 +135,15 @@ def chart(repo, daily, now, retained=True):
     body += text(930, 32, f'UTC {end}', 11, extra='text-anchor="end"')
     body += f'<path d="M28 88H932M479 110V287" stroke="#26354c"/>'
     if retained:
-        st = retained_series(repo['star_dates'], repo['created_at'][:10], end)
-        ft = retained_series(repo['fork_dates'], repo['created_at'][:10], end)
-        body += panel(st, 28, 'Retained stars · by original star date', '#5eead4', end)
-        body += panel(ft, 508, 'Visible forks · by creation date', '#a5b4fc', end)
-        body += text(28, 317, 'Reconstructed from currently visible events; not historical net totals.', 12)
+        star_asof = repo.get('star_history_observed_at', now)
+        fork_asof = repo.get('fork_history_observed_at', now)
+        star_end = star_asof[:10] if star_asof else end
+        fork_end = fork_asof[:10] if fork_asof else end
+        st = retained_series(repo['star_dates'], repo['created_at'][:10], star_end) if star_asof else []
+        ft = retained_series(repo['fork_dates'], repo['created_at'][:10], fork_end) if fork_asof else []
+        body += panel(st, 28, 'Retained stars · by original star date', '#5eead4', star_end, 'Event history unavailable')
+        body += panel(ft, 508, 'Visible forks · by creation date', '#a5b4fc', fork_end, 'Event history unavailable')
+        body += text(28, 315, f"Event snapshots: stars {(star_asof or 'unavailable')[:10]} · forks {(fork_asof or 'unavailable')[:10]}. Not historical net totals.", 12)
         body += text(28, 337, f"Coverage: {len(repo['star_dates'])}/{stars} stars · {len(repo['fork_dates'])}/{forks} forks. Deleted / unstarred events unavailable.", 11)
     else:
         st = [(row['date'], row['repos'][name]['stars']) for row in daily if name in row['repos']]
@@ -177,6 +180,21 @@ def update_directory(path, repos, featured, zh=False):
     write(path, re.sub(pattern, lambda _: replacement, source, flags=re.S))
 
 
+def event_history(fetch, cached, observed_at, now):
+    """Optional event history may need broader access than public aggregate counts.
+
+    Never transfer a personal token into CI to work around installation scope.
+    Preserve dated evidence on explicit auth denials, not transient or rate errors.
+    """
+    try:
+        return fetch(), now
+    except urllib.error.HTTPError as exc:
+        if exc.code not in (401, 403) or exc.headers.get('X-RateLimit-Remaining') == '0':
+            raise
+        print(f'Event-history HTTP {exc.code}: preserving dated snapshot {observed_at or "unavailable"}; current totals still collected.')
+        return cached, observed_at
+
+
 def main():
     now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
     config = json.loads((ROOT / 'data/projects.json').read_text())
@@ -185,13 +203,21 @@ def main():
     public = [r for r in raw if not r['private'] and r['owner']['login'].lower() == OWNER.lower() and r.get('visibility', 'public') == 'public']
     if not public:
         raise ValueError('Empty public repository response; refusing to erase the portfolio')
+    latest_path = ROOT / 'data/latest.json'
+    previous = json.loads(latest_path.read_text()) if latest_path.exists() else {'repos': []}
+    previous_repos = {r['name']: r for r in previous['repos']}
     repos = []
     for r in public:
-        # Timestamp media type is necessary for starred_at. Request override below.
-        star_events = star_pages(f'/repos/{OWNER}/{r["name"]}/stargazers')
-        forks = [f for f in pages(f'/repos/{OWNER}/{r["name"]}/forks') if not f.get('private', False)]
-        repos.append({'name': r['name'], 'description': r['description'], 'is_fork': r['fork'], 'archived': r['archived'], 'created_at': r['created_at'], 'stars': r['stargazers_count'], 'forks': r['forks_count'], 'open_issues_and_prs': r['open_issues_count'], 'language': r['language'], 'pushed_at': r['pushed_at'], 'star_dates': sorted(s['starred_at'] for s in star_events), 'fork_dates': sorted(f['created_at'] for f in forks)})
-    # Nothing is written until all API calls succeed. No user IDs or credentials stored.
+        old = previous_repos.get(r['name'], {})
+        star_dates, star_asof = event_history(
+            lambda: sorted(s['starred_at'] for s in star_pages(f'/repos/{OWNER}/{r["name"]}/stargazers')),
+            old.get('star_dates', []), old.get('star_history_observed_at', previous.get('observed_at') if old else None), now)
+        fork_dates, fork_asof = event_history(
+            lambda: sorted(f['created_at'] for f in pages(f'/repos/{OWNER}/{r["name"]}/forks') if not f.get('private', False)),
+            old.get('fork_dates', []), old.get('fork_history_observed_at', previous.get('observed_at') if old else None), now)
+        repos.append({'name': r['name'], 'description': r['description'], 'is_fork': r['fork'], 'archived': r['archived'], 'created_at': r['created_at'], 'stars': r['stargazers_count'], 'forks': r['forks_count'], 'open_issues_and_prs': r['open_issues_count'], 'language': r['language'], 'pushed_at': r['pushed_at'], 'star_dates': star_dates, 'fork_dates': fork_dates, 'star_history_observed_at': star_asof, 'fork_history_observed_at': fork_asof})
+    # Current repository collection must succeed. Optional event auth denials retain dated evidence.
+    # No user IDs or credentials are stored.
     history_path = ROOT / 'data/daily.json'
     history = json.loads(history_path.read_text()) if history_path.exists() else []
     history = upsert_daily(history, repos, now)

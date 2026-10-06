@@ -29,6 +29,25 @@ class MetricsTests(unittest.TestCase):
             self.assertIn('Authorization', call.call_args_list[0].args[0].headers)
             self.assertNotIn('Authorization', call.call_args_list[1].args[0].headers)
 
+    def test_event_auth_denial_preserves_original_timestamp(self):
+        denied = urllib.error.HTTPError('https://api.github.com/test', 401, 'Unauthorized', {}, None)
+        with patch('builtins.print'):
+            dates, when = m.event_history(unittest.mock.Mock(side_effect=denied), ['2026-09-01T00:00:00Z'], '2026-10-01T00:00:00Z', '2026-10-06T00:00:00Z')
+        self.assertEqual(when, '2026-10-01T00:00:00Z')
+        self.assertEqual(len(dates), 1)
+
+    def test_no_cache_is_unavailable_not_fake_zero_history(self):
+        r = self.repo()
+        r['star_history_observed_at'] = None
+        r['star_dates'] = []
+        svg = m.chart(r, [], '2026-10-06T00:00:00Z')
+        self.assertIn('Event history unavailable', svg)
+
+    def test_event_transient_failure_still_fails(self):
+        denied = urllib.error.HTTPError('https://api.github.com/test', 503, 'Unavailable', {}, None)
+        with self.assertRaises(urllib.error.HTTPError):
+            m.event_history(unittest.mock.Mock(side_effect=denied), [], None, '2026-10-06T00:00:00Z')
+
     def test_rate_limit_is_not_bypassed(self):
         denied = urllib.error.HTTPError('https://api.github.com/test', 403, 'Forbidden', {'X-RateLimit-Remaining': '0'}, io.BytesIO(b'{}'))
         with patch.dict(os.environ, {'GH_TOKEN': 'test-only'}), patch.object(m.urllib.request, 'urlopen', side_effect=denied) as call:
@@ -68,7 +87,7 @@ class MetricsTests(unittest.TestCase):
         svg = m.chart(self.repo(), [], '2026-10-06T00:00:00Z')
         ET.fromstring(svg)
         self.assertIn('sample&amp;project', svg)
-        self.assertIn('not historical net totals', svg)
+        self.assertIn('Not historical net totals', svg)
         self.assertIn('3/3 stars', svg)
 
     def test_pagination(self):
