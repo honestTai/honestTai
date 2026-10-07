@@ -2,7 +2,7 @@
 
 [Portfolio](../README.md) · [中文说明](METHODOLOGY.zh-CN.md) · [Methodology](METHODOLOGY.md)
 
-Observed at **2026-10-06T01:41:21Z**. All 14 public repositories, including forks.
+Observed at **2026-10-07T01:50:16Z**. All 15 public repositories, including forks.
 
 ## awesome-lint
 
@@ -99,6 +99,14 @@ Observed at **2026-10-06T01:41:21Z**. All 14 public repositories, including fork
 ![Retained-event history](../assets/metrics/seehtml-ai.svg)
 
 ![Observed daily totals](../assets/metrics/seehtml-ai-daily.svg)
+
+## sub2api-1
+
+[Repository](https://github.com/honestTai/sub2api-1)
+
+![Retained-event history](../assets/metrics/sub2api-1.svg)
+
+![Observed daily totals](../assets/metrics/sub2api-1-daily.svg)
 
 ## tauri-markdown-reader
 

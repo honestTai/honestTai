@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-10-06T01:41:21Z",
+  "observed_at": "2026-10-07T01:50:16Z",
   "source": "https://api.github.com",
   "repos": [
     {
@@ -19,7 +19,7 @@
       ],
       "fork_dates": [],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "cc-switch",
@@ -38,7 +38,7 @@
       ],
       "fork_dates": [],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "faliang-codex-ex",
@@ -57,7 +57,7 @@
       ],
       "fork_dates": [],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "geo-console",
@@ -87,7 +87,7 @@
         "2026-09-28T00:15:12Z"
       ],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "grad-project-studio",
@@ -103,7 +103,7 @@
       "star_dates": [],
       "fork_dates": [],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "honestTai",
@@ -115,14 +115,14 @@
       "forks": 0,
       "open_issues_and_prs": 0,
       "language": "Python",
-      "pushed_at": "2026-10-06T01:41:05Z",
+      "pushed_at": "2026-10-06T01:41:31Z",
       "star_dates": [
         "2026-09-15T13:08:41Z",
         "2026-09-16T03:31:58Z"
       ],
       "fork_dates": [],
-      "star_history_observed_at": "2026-10-06T01:41:21Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "star_history_observed_at": "2026-10-07T01:50:16Z",
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "honestTai-Tool-Xianyu",
@@ -141,7 +141,7 @@
       ],
       "fork_dates": [],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "HRouter-Desktop",
@@ -149,7 +149,7 @@
       "is_fork": false,
       "archived": false,
       "created_at": "2026-08-08T13:26:25Z",
-      "stars": 4,
+      "stars": 5,
       "forks": 1,
       "open_issues_and_prs": 11,
       "language": "Rust",
@@ -164,7 +164,7 @@
         "2026-09-28T13:15:15Z"
       ],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "hrouter-market-pulse",
@@ -183,7 +183,7 @@
       ],
       "fork_dates": [],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "rent-project",
@@ -205,7 +205,7 @@
       ],
       "fork_dates": [],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "seedance-movie-mcp",
@@ -225,7 +225,7 @@
       ],
       "fork_dates": [],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "seehtml-ai",
@@ -247,7 +247,23 @@
       ],
       "fork_dates": [],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
+    },
+    {
+      "name": "sub2api-1",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "is_fork": true,
+      "archived": false,
+      "created_at": "2026-10-06T14:42:20Z",
+      "stars": 0,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": null,
+      "pushed_at": "2026-10-06T15:15:11Z",
+      "star_dates": [],
+      "fork_dates": [],
+      "star_history_observed_at": null,
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "tauri-markdown-reader",
@@ -269,7 +285,7 @@
       ],
       "fork_dates": [],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     },
     {
       "name": "wechat-shop-netCore",
@@ -290,7 +306,7 @@
       ],
       "fork_dates": [],
       "star_history_observed_at": "2026-10-06T01:32:44Z",
-      "fork_history_observed_at": "2026-10-06T01:41:21Z"
+      "fork_history_observed_at": "2026-10-07T01:50:16Z"
     }
   ]
 }

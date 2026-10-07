@@ -75,10 +75,10 @@ A complete directory, not just a selection. **Fork** means an upstream-derived r
 | Repository | What it does | Type | Stars | Forks | Trends |
 | :--- | :--- | :--- | ---: | ---: | :---: |
 | [**geo-console**](https://github.com/honestTai/geo-console) | Evidence-led AI visibility, brand mentions, and content improvements. | Project | 8 | 4 | [↗](https://github.com/honestTai/geo-console#project-activity) |
+| [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | A local-first workbench for AI coding agents, providers, and model routes. | Project | 5 | 1 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
 | [**rent-project**](https://github.com/honestTai/rent-project) | Rental operations, electronic contracts, installment bills, and fulfillment. | Project | 5 | 0 | [↗](https://github.com/honestTai/rent-project#project-activity) |
 | [**seehtml-ai**](https://github.com/honestTai/seehtml-ai) | Create HTML with AI; preview and export presentations, images, and video. | Project | 5 | 0 | [↗](https://github.com/honestTai/seehtml-ai#project-activity) |
 | [**tauri-markdown-reader**](https://github.com/honestTai/tauri-markdown-reader) | Read, search, edit, and export local Markdown to Word or PDF. | Project | 5 | 0 | [↗](https://github.com/honestTai/tauri-markdown-reader#project-activity) |
-| [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | A local-first workbench for AI coding agents, providers, and model routes. | Project | 4 | 1 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
 | [**wechat-shop-netCore**](https://github.com/honestTai/wechat-shop-netCore) | A historical ASP.NET Core shop backend for source exploration. | Project | 4 | 0 | [↗](https://github.com/honestTai/wechat-shop-netCore#project-activity) |
 | [**seedance-movie-mcp**](https://github.com/honestTai/seedance-movie-mcp) | Scene planning, approved video generation, and clip assembly with Ark. | Project | 3 | 0 | [↗](https://github.com/honestTai/seedance-movie-mcp#project-activity) |
 | [**faliang-codex-ex**](https://github.com/honestTai/faliang-codex-ex) | Draft, fact-check, review in WeMD, and prepare WeChat Official Account drafts. | Project | 2 | 0 | [↗](https://github.com/honestTai/faliang-codex-ex#project-activity) |
@@ -88,6 +88,7 @@ A complete directory, not just a selection. **Fork** means an upstream-derived r
 | [**grad-project-studio**](https://github.com/honestTai/grad-project-studio) | Evidence-linked system design, code, PlantUML, reports, and presentation workflows. | Project | 0 | 0 | [↗](https://github.com/honestTai/grad-project-studio#project-activity) |
 | [**awesome-lint**](https://github.com/honestTai/awesome-lint) | Fork of the linter for Awesome lists. | Fork | 2 | 0 | [↗](https://github.com/honestTai/awesome-lint#project-activity) |
 | [**cc-switch**](https://github.com/honestTai/cc-switch) | Fork of the cross-platform configuration assistant for AI coding tools. | Fork | 2 | 0 | [↗](https://github.com/honestTai/cc-switch#project-activity) |
+| [**sub2api-1**](https://github.com/honestTai/sub2api-1) | Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。 | Fork | 0 | 0 | [↗](https://github.com/honestTai/sub2api-1#project-activity) |
 
 <!-- PUBLIC-REPOS:END -->
 

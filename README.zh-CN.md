@@ -35,10 +35,10 @@
 | 仓库 | 简介 | 类型 | Stars | Forks | 趋势 |
 | :--- | :--- | :--- | ---: | ---: | :---: |
 | [**geo-console**](https://github.com/honestTai/geo-console) | 基于证据的 AI 可见性监测、品牌提及与内容整改。 | 项目 | 8 | 4 | [↗](https://github.com/honestTai/geo-console#project-activity) |
+| [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | AI 编程工具、供应商配置与模型路由的本地优先工作台。 | 项目 | 5 | 1 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
 | [**rent-project**](https://github.com/honestTai/rent-project) | 租赁运营、电子合同、分期账单与履约管理。 | 项目 | 5 | 0 | [↗](https://github.com/honestTai/rent-project#project-activity) |
 | [**seehtml-ai**](https://github.com/honestTai/seehtml-ai) | AI 创作 HTML，预览并导出演示文稿、图片与视频。 | 项目 | 5 | 0 | [↗](https://github.com/honestTai/seehtml-ai#project-activity) |
 | [**tauri-markdown-reader**](https://github.com/honestTai/tauri-markdown-reader) | 阅读、搜索、编辑本地 Markdown，导出 Word 或 PDF。 | 项目 | 5 | 0 | [↗](https://github.com/honestTai/tauri-markdown-reader#project-activity) |
-| [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | AI 编程工具、供应商配置与模型路由的本地优先工作台。 | 项目 | 4 | 1 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
 | [**wechat-shop-netCore**](https://github.com/honestTai/wechat-shop-netCore) | 用于源码阅读的历史 ASP.NET Core 商城后端。 | 项目 | 4 | 0 | [↗](https://github.com/honestTai/wechat-shop-netCore#project-activity) |
 | [**seedance-movie-mcp**](https://github.com/honestTai/seedance-movie-mcp) | 火山方舟分镜规划、确认后的视频生成与片段拼接。 | 项目 | 3 | 0 | [↗](https://github.com/honestTai/seedance-movie-mcp#project-activity) |
 | [**faliang-codex-ex**](https://github.com/honestTai/faliang-codex-ex) | 写稿、事实核验、WeMD 审稿与微信公众号草稿工作流。 | 项目 | 2 | 0 | [↗](https://github.com/honestTai/faliang-codex-ex#project-activity) |
@@ -48,6 +48,7 @@
 | [**grad-project-studio**](https://github.com/honestTai/grad-project-studio) | 串联真实证据的系统设计、代码、PlantUML、报告与答辩工作流。 | 项目 | 0 | 0 | [↗](https://github.com/honestTai/grad-project-studio#project-activity) |
 | [**awesome-lint**](https://github.com/honestTai/awesome-lint) | Awesome 清单规范检查工具的 Fork。 | Fork · 上游衍生 | 2 | 0 | [↗](https://github.com/honestTai/awesome-lint#project-activity) |
 | [**cc-switch**](https://github.com/honestTai/cc-switch) | 跨平台 AI 编程工具配置助手的 Fork。 | Fork · 上游衍生 | 2 | 0 | [↗](https://github.com/honestTai/cc-switch#project-activity) |
+| [**sub2api-1**](https://github.com/honestTai/sub2api-1) | Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。 | Fork · 上游衍生 | 0 | 0 | [↗](https://github.com/honestTai/sub2api-1#project-activity) |
 
 <!-- PUBLIC-REPOS:END -->
 
