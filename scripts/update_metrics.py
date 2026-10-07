@@ -72,6 +72,32 @@ def esc(value):
     return html.escape(str(value), quote=True)
 
 
+# Palette swap used to derive the light-theme variant of every generated SVG.
+# Keys are the dark HRouter palette; values are tuned for GitHub light mode.
+LIGHT_SWAP = {
+    '#0B1A13': '#F5FAF2',
+    '#24402F': '#D3E2D4',
+    '#1C3527': '#E0EBDF',
+    '#f0f5ff': '#152A1F',
+    '#dce6f5': '#2C4536',
+    '#9aabc2': '#64786B',
+    '#A8FF57': '#3F9500',
+    '#45DCC3': '#0E9C86',
+    '#9BE8D6': '#2FA98F',
+}
+
+
+def light_variant(content):
+    for dark, light in LIGHT_SWAP.items():
+        content = content.replace(dark, light)
+    return content
+
+
+def write_themed(path, content):
+    write(path, content)
+    write(path.replace('.svg', '-light.svg'), light_variant(content))
+
+
 def text(x, y, value, size=14, color='#9aabc2', weight=400, extra=''):
     return f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" font-weight="{weight}" {extra}>{esc(value)}</text>'
 
@@ -222,28 +248,30 @@ def main():
     history = json.loads(history_path.read_text()) if history_path.exists() else []
     history = upsert_daily(history, repos, now)
     for r in repos:
-        write(f'assets/metrics/{r["name"]}.svg', chart(r, history, now))
-        write(f'assets/metrics/{r["name"]}-daily.svg', chart(r, history, now, False))
+        write_themed(f'assets/metrics/{r["name"]}.svg', chart(r, history, now))
+        write_themed(f'assets/metrics/{r["name"]}-daily.svg', chart(r, history, now, False))
         badge = text(28, 37, 'PUBLIC FORK' if r['is_fork'] else 'PUBLIC PROJECT', 12, '#45DCC3', 600)
         badge += text(215, 37, f"★ {r['stars']} stars", 15, '#A8FF57', 600)
         badge += text(370, 37, f"⑂ {r['forks']} forks", 15, '#9BE8D6', 600)
         badge += text(530, 37, r['language'] or 'Documentation', 13, '#dce6f5')
         badge += text(740, 37, 'Pushed ' + r['pushed_at'][:10], 12)
-        write(f'assets/badges/{r["name"]}.svg', svg(badge, f'{r["name"]} public repository summary', 64))
+        write_themed(f'assets/badges/{r["name"]}.svg', svg(badge, f'{r["name"]} public repository summary', 64))
     body = text(32, 34, 'THE PUBLIC WORKBENCH', 12, '#A8FF57', 600)
     values = [(len(repos), 'PUBLIC REPOSITORIES'), (sum(r['stars'] for r in repos), 'STARS ACROSS REPOS'), (sum(r['forks'] for r in repos), 'FORKS ACROSS REPOS')]
     for i, (number, label) in enumerate(values):
         x = 32 + i*312
         body += text(x, 93, number, 44, '#f0f5ff', 700) + text(x, 122, label, 11)
     body += text(32, 157, f'Public repositories only · Includes forked repositories · Updated {now[:10]} UTC', 11)
-    write('assets/overview.svg', svg(body, 'Public repository overview', 180))
+    write_themed('assets/overview.svg', svg(body, 'Public repository overview', 180))
     for name, zh in [('README.md', False), ('README.zh-CN.md', True)]:
         update_directory(name, repos, config, zh)
     index = '# Public repository metrics\n\n[Portfolio](../README.md) · [中文说明](METHODOLOGY.zh-CN.md) · [Methodology](METHODOLOGY.md)\n\n'
     index += f'Observed at **{now}**. All {len(repos)} public repositories, including forks.\n\n'
     for r in repos:
         name = r['name']
-        index += f'## {name}\n\n[Repository](https://github.com/{OWNER}/{name})\n\n![Retained-event history](../assets/metrics/{name}.svg)\n\n![Observed daily totals](../assets/metrics/{name}-daily.svg)\n\n'
+        index += f'## {name}\n\n[Repository](https://github.com/{OWNER}/{name})\n\n'
+        index += f'<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/{name}.svg"><img src="../assets/metrics/{name}-light.svg" alt="Retained-event history"></picture>\n\n'
+        index += f'<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/{name}-daily.svg"><img src="../assets/metrics/{name}-daily-light.svg" alt="Observed daily totals"></picture>\n\n'
     write('data/README.md', index)
     write('data/latest.json', json_text({'observed_at': now, 'source': API, 'repos': repos}))
     write('data/daily.json', json_text(history))

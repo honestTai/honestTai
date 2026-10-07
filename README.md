@@ -2,7 +2,10 @@
 
 [**English**](README.md) · [简体中文](README.zh-CN.md)
 
-![honestTai — Make useful things.](assets/hero.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg">
+  <img src="assets/hero-light.svg" alt="honestTai — Make useful things.">
+</picture>
 
 **Hi, I'm honestTai — the developer and operator behind HRouter.**  
 I turn day-to-day problems into practical AI tools, business software, skills, and plugins.
@@ -13,7 +16,10 @@ I turn day-to-day problems into practical AI tools, business software, skills, a
 
 ## The public workbench
 
-![Public repository totals](assets/overview.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/overview.svg">
+  <img src="assets/overview-light.svg" alt="Public repository totals">
+</picture>
 
 **Every public repository is listed below — including forks.** No private projects are included. Counts are scheduled to refresh daily, not in real time.
 
@@ -117,7 +123,10 @@ I also build and operate [**HRouter**](https://hrouter.net/home): model access, 
 
 ## Project activity
 
-![Profile repository Star and Fork history](assets/metrics/honestTai.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics/honestTai.svg">
+  <img src="assets/metrics/honestTai-light.svg" alt="Profile repository Star and Fork history">
+</picture>
 
 [**Explore all Star / Fork charts →**](data/README.md) · [Observed daily totals](assets/metrics/honestTai-daily.svg) · [Data and methodology](data/METHODOLOGY.md) · [Refresh status](https://github.com/honestTai/honestTai/actions/workflows/public-metrics.yml)
 

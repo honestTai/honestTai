@@ -2,7 +2,10 @@
 
 [English](README.md) · **简体中文**
 
-![honestTai — 把想法做成实用工具](assets/hero.zh-CN.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero.zh-CN.svg">
+  <img src="assets/hero.zh-CN-light.svg" alt="honestTai — 把想法做成实用工具">
+</picture>
 
 **你好，我是 honestTai，HRouter 的开发者与运营者。**  
 把日常工作中的需求，做成实用的 AI 工具、业务软件、Skills 与插件。
@@ -13,7 +16,10 @@
 
 ## 我的公开项目工作台
 
-![公开仓库统计](assets/overview.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/overview.svg">
+  <img src="assets/overview-light.svg" alt="公开仓库统计">
+</picture>
 
 **下方展示全部公开仓库，包括 Fork。** 不包含私有项目；统计计划每日更新，并非实时行情。
 
@@ -79,7 +85,10 @@
 
 ## 项目动态
 
-![主页仓库 Star 与 Fork 历史](assets/metrics/honestTai.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics/honestTai.svg">
+  <img src="assets/metrics/honestTai-light.svg" alt="主页仓库 Star 与 Fork 历史">
+</picture>
 
 [**查看所有 Star / Fork 趋势 →**](data/README.md) · [每日实测总量](assets/metrics/honestTai-daily.svg) · [数据口径](data/METHODOLOGY.zh-CN.md) · [更新状态](https://github.com/honestTai/honestTai/actions/workflows/public-metrics.yml)
 
