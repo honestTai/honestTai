@@ -92,6 +92,18 @@ A complete directory, not just a selection. **Fork** means an upstream-derived r
 
 <!-- PUBLIC-REPOS:END -->
 
+## Upstream contributions
+
+### sub2api · Critical payment vulnerability fix — merged and released
+
+Independently discovered and fixed an EasyPay payment-callback forgery vulnerability (Critical) in the [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api) AI gateway: an attacker could forge successful payment callbacks without the merchant key and credit any balance at zero cost. Reported with a PoC, patched, merged by the maintainer, and shipped in the official **v0.2.14** release.
+
+- [Issue #7881 · vulnerability report](https://github.com/Wei-Shaw/sub2api/issues/7881)
+- [PR #7888 · fix, merged](https://github.com/Wei-Shaw/sub2api/pull/7888)
+- [v0.2.14 release notes](https://github.com/Wei-Shaw/sub2api/releases/tag/v0.2.14)
+
+The fix applies defense in depth: callback parameter allowlist verification, return_url query stripping, and asynchronous post-crediting upstream reconciliation.
+
 ## How I build
 
 - **Useful before flashy.** Tools grounded in actual development, writing, research, and business workflows.

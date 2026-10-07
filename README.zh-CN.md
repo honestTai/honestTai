@@ -52,6 +52,18 @@
 
 <!-- PUBLIC-REPOS:END -->
 
+## 上游开源贡献
+
+### sub2api · 关键支付漏洞修复（已合并发版）
+
+独立发现并修复 [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api) AI 网关的 EasyPay 支付回调伪造漏洞（Critical）：攻击者无需商户密钥即可伪造支付成功回调，实现 0 元充值任意金额。完成 PoC 复现、漏洞报告与修复实现，被项目作者合并后随官方 **v0.2.14** 版本发布，修复写入 Release Notes。
+
+- [Issue #7881 · 漏洞报告](https://github.com/Wei-Shaw/sub2api/issues/7881)
+- [PR #7888 · 修复实现（已合并）](https://github.com/Wei-Shaw/sub2api/pull/7888)
+- [v0.2.14 Release Notes](https://github.com/Wei-Shaw/sub2api/releases/tag/v0.2.14)
+
+修复采用三层纵深防御：回调参数白名单验签、return_url 查询参数剥离、入账后异步上游对账。
+
 ## 我的开发取向
 
 - **先实用，再炫技。** 围绕开发、写作、研究和业务中的真实需求。
