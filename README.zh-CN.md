@@ -48,7 +48,7 @@
 | [**grad-project-studio**](https://github.com/honestTai/grad-project-studio) | 串联真实证据的系统设计、代码、PlantUML、报告与答辩工作流。 | 项目 | 0 | 0 | [↗](https://github.com/honestTai/grad-project-studio#project-activity) |
 | [**awesome-lint**](https://github.com/honestTai/awesome-lint) | Awesome 清单规范检查工具的 Fork。 | Fork · 上游衍生 | 2 | 0 | [↗](https://github.com/honestTai/awesome-lint#project-activity) |
 | [**cc-switch**](https://github.com/honestTai/cc-switch) | 跨平台 AI 编程工具配置助手的 Fork。 | Fork · 上游衍生 | 2 | 0 | [↗](https://github.com/honestTai/cc-switch#project-activity) |
-| [**sub2api-1**](https://github.com/honestTai/sub2api-1) | Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。 | Fork · 上游衍生 | 0 | 0 | [↗](https://github.com/honestTai/sub2api-1#project-activity) |
+| [**sub2api-1**](https://github.com/honestTai/sub2api-1) | Security research fork of Wei-Shaw/sub2api — EasyPay payment callback forgery fix, merged upstream as PR #7888 and shipped in v0.2.14. | Fork · 上游衍生 | 0 | 0 | [↗](https://github.com/honestTai/sub2api-1#project-activity) |
 
 <!-- PUBLIC-REPOS:END -->
 

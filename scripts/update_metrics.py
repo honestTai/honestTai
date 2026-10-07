@@ -79,7 +79,7 @@ def text(x, y, value, size=14, color='#9aabc2', weight=400, extra=''):
 def svg(body, title, height=350):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="960" height="{height}" viewBox="0 0 960 {height}" role="img" aria-labelledby="title desc">
 <title id="title">{esc(title)}</title><desc id="desc">Public GitHub API data. See the linked methodology for coverage and timing.</desc>
-<rect x="1" y="1" width="958" height="{height-2}" rx="20" fill="#0c1424" stroke="#26354c"/>
+<rect x="1" y="1" width="958" height="{height-2}" rx="20" fill="#0B1A13" stroke="#24402F"/>
 <g font-family="{FONT}">{body}</g></svg>\n'''
 
 
@@ -106,7 +106,7 @@ def panel(series, x, title, color, end, empty_label=None):
     maximum = max(1, max(value for _, value in series))
     for value in sorted({round(maximum * n / 2) for n in range(3)}):
         yy = top + height - height * value / maximum
-        out += f'<path d="M{left} {yy}H{left+width}" stroke="#223149" stroke-dasharray="3 5"/>'
+        out += f'<path d="M{left} {yy}H{left+width}" stroke="#1C3527" stroke-dasharray="3 5"/>'
         out += text(left-10, yy+4, value, 11, extra='text-anchor="end"')
     points = [(left + width * (dt.date.fromisoformat(day) - begin).days / span, top + height - height * value / maximum) for day, value in series]
     if len(set(day for day, _ in series)) >= 2:
@@ -129,11 +129,11 @@ def chart(repo, daily, now, retained=True):
     name, stars, forks = repo['name'], repo['stars'], repo['forks']
     end = now[:10]
     body = text(28, 34, name, 19, '#f0f5ff', 650)
-    body += text(28, 66, f'{stars} STARS', 17, '#5eead4', 650)
-    body += text(190, 66, f'{forks} FORKS', 17, '#a5b4fc', 650)
+    body += text(28, 66, f'{stars} STARS', 17, '#A8FF57', 650)
+    body += text(190, 66, f'{forks} FORKS', 17, '#45DCC3', 650)
     body += text(348, 66, f"{repo['open_issues_and_prs']} OPEN ISSUES + PRs", 12)
     body += text(930, 32, f'UTC {end}', 11, extra='text-anchor="end"')
-    body += f'<path d="M28 88H932M479 110V287" stroke="#26354c"/>'
+    body += f'<path d="M28 88H932M479 110V287" stroke="#24402F"/>'
     if retained:
         star_asof = repo.get('star_history_observed_at', now)
         fork_asof = repo.get('fork_history_observed_at', now)
@@ -141,15 +141,15 @@ def chart(repo, daily, now, retained=True):
         fork_end = fork_asof[:10] if fork_asof else end
         st = retained_series(repo['star_dates'], repo['created_at'][:10], star_end) if star_asof else []
         ft = retained_series(repo['fork_dates'], repo['created_at'][:10], fork_end) if fork_asof else []
-        body += panel(st, 28, 'Retained stars · by original star date', '#5eead4', star_end, 'Event history unavailable')
-        body += panel(ft, 508, 'Visible forks · by creation date', '#a5b4fc', fork_end, 'Event history unavailable')
+        body += panel(st, 28, 'Retained stars · by original star date', '#A8FF57', star_end, 'Event history unavailable')
+        body += panel(ft, 508, 'Visible forks · by creation date', '#45DCC3', fork_end, 'Event history unavailable')
         body += text(28, 315, f"Event snapshots: stars {(star_asof or 'unavailable')[:10]} · forks {(fork_asof or 'unavailable')[:10]}. Not historical net totals.", 12)
         body += text(28, 337, f"Coverage: {len(repo['star_dates'])}/{stars} stars · {len(repo['fork_dates'])}/{forks} forks. Deleted / unstarred events unavailable.", 11)
     else:
         st = [(row['date'], row['repos'][name]['stars']) for row in daily if name in row['repos']]
         ft = [(row['date'], row['repos'][name]['forks']) for row in daily if name in row['repos']]
-        body += panel(st, 28, 'Observed star totals · daily snapshots', '#5eead4', end)
-        body += panel(ft, 508, 'Observed fork totals · daily snapshots', '#a5b4fc', end)
+        body += panel(st, 28, 'Observed star totals · daily snapshots', '#A8FF57', end)
+        body += panel(ft, 508, 'Observed fork totals · daily snapshots', '#45DCC3', end)
         body += text(28, 321, 'Actual observed totals. No backfill. Missing collection days are not observations.', 12)
     return svg(body, f'{name}: Star and Fork {"retained-event history" if retained else "daily observations"}')
 
@@ -224,13 +224,13 @@ def main():
     for r in repos:
         write(f'assets/metrics/{r["name"]}.svg', chart(r, history, now))
         write(f'assets/metrics/{r["name"]}-daily.svg', chart(r, history, now, False))
-        badge = text(28, 37, 'PUBLIC FORK' if r['is_fork'] else 'PUBLIC PROJECT', 12, '#a5b4fc', 600)
-        badge += text(215, 37, f"★ {r['stars']} stars", 15, '#5eead4', 600)
-        badge += text(370, 37, f"⑂ {r['forks']} forks", 15, '#c7d2fe', 600)
+        badge = text(28, 37, 'PUBLIC FORK' if r['is_fork'] else 'PUBLIC PROJECT', 12, '#45DCC3', 600)
+        badge += text(215, 37, f"★ {r['stars']} stars", 15, '#A8FF57', 600)
+        badge += text(370, 37, f"⑂ {r['forks']} forks", 15, '#9BE8D6', 600)
         badge += text(530, 37, r['language'] or 'Documentation', 13, '#dce6f5')
         badge += text(740, 37, 'Pushed ' + r['pushed_at'][:10], 12)
         write(f'assets/badges/{r["name"]}.svg', svg(badge, f'{r["name"]} public repository summary', 64))
-    body = text(32, 34, 'THE PUBLIC WORKBENCH', 12, '#5eead4', 600)
+    body = text(32, 34, 'THE PUBLIC WORKBENCH', 12, '#A8FF57', 600)
     values = [(len(repos), 'PUBLIC REPOSITORIES'), (sum(r['stars'] for r in repos), 'STARS ACROSS REPOS'), (sum(r['forks'] for r in repos), 'FORKS ACROSS REPOS')]
     for i, (number, label) in enumerate(values):
         x = 32 + i*312

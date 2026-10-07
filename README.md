@@ -88,7 +88,7 @@ A complete directory, not just a selection. **Fork** means an upstream-derived r
 | [**grad-project-studio**](https://github.com/honestTai/grad-project-studio) | Evidence-linked system design, code, PlantUML, reports, and presentation workflows. | Project | 0 | 0 | [↗](https://github.com/honestTai/grad-project-studio#project-activity) |
 | [**awesome-lint**](https://github.com/honestTai/awesome-lint) | Fork of the linter for Awesome lists. | Fork | 2 | 0 | [↗](https://github.com/honestTai/awesome-lint#project-activity) |
 | [**cc-switch**](https://github.com/honestTai/cc-switch) | Fork of the cross-platform configuration assistant for AI coding tools. | Fork | 2 | 0 | [↗](https://github.com/honestTai/cc-switch#project-activity) |
-| [**sub2api-1**](https://github.com/honestTai/sub2api-1) | Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。 | Fork | 0 | 0 | [↗](https://github.com/honestTai/sub2api-1#project-activity) |
+| [**sub2api-1**](https://github.com/honestTai/sub2api-1) | Security research fork of Wei-Shaw/sub2api — EasyPay payment callback forgery fix, merged upstream as PR #7888 and shipped in v0.2.14. | Fork | 0 | 0 | [↗](https://github.com/honestTai/sub2api-1#project-activity) |
 
 <!-- PUBLIC-REPOS:END -->
 
