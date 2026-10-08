@@ -81,7 +81,7 @@ A complete directory, not just a selection. **Fork** means an upstream-derived r
 | Repository | What it does | Type | Stars | Forks | Trends |
 | :--- | :--- | :--- | ---: | ---: | :---: |
 | [**geo-console**](https://github.com/honestTai/geo-console) | Evidence-led AI visibility, brand mentions, and content improvements. | Project | 8 | 4 | [↗](https://github.com/honestTai/geo-console#project-activity) |
-| [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | A local-first workbench for AI coding agents, providers, and model routes. | Project | 5 | 1 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
+| [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | A local-first workbench for AI coding agents, providers, and model routes. | Project | 6 | 1 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
 | [**rent-project**](https://github.com/honestTai/rent-project) | Rental operations, electronic contracts, installment bills, and fulfillment. | Project | 5 | 0 | [↗](https://github.com/honestTai/rent-project#project-activity) |
 | [**seehtml-ai**](https://github.com/honestTai/seehtml-ai) | Create HTML with AI; preview and export presentations, images, and video. | Project | 5 | 0 | [↗](https://github.com/honestTai/seehtml-ai#project-activity) |
 | [**tauri-markdown-reader**](https://github.com/honestTai/tauri-markdown-reader) | Read, search, edit, and export local Markdown to Word or PDF. | Project | 5 | 0 | [↗](https://github.com/honestTai/tauri-markdown-reader#project-activity) |

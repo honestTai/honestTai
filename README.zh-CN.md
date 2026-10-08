@@ -41,7 +41,7 @@
 | 仓库 | 简介 | 类型 | Stars | Forks | 趋势 |
 | :--- | :--- | :--- | ---: | ---: | :---: |
 | [**geo-console**](https://github.com/honestTai/geo-console) | 基于证据的 AI 可见性监测、品牌提及与内容整改。 | 项目 | 8 | 4 | [↗](https://github.com/honestTai/geo-console#project-activity) |
-| [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | AI 编程工具、供应商配置与模型路由的本地优先工作台。 | 项目 | 5 | 1 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
+| [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | AI 编程工具、供应商配置与模型路由的本地优先工作台。 | 项目 | 6 | 1 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
 | [**rent-project**](https://github.com/honestTai/rent-project) | 租赁运营、电子合同、分期账单与履约管理。 | 项目 | 5 | 0 | [↗](https://github.com/honestTai/rent-project#project-activity) |
 | [**seehtml-ai**](https://github.com/honestTai/seehtml-ai) | AI 创作 HTML，预览并导出演示文稿、图片与视频。 | 项目 | 5 | 0 | [↗](https://github.com/honestTai/seehtml-ai#project-activity) |
 | [**tauri-markdown-reader**](https://github.com/honestTai/tauri-markdown-reader) | 阅读、搜索、编辑本地 Markdown，导出 Word 或 PDF。 | 项目 | 5 | 0 | [↗](https://github.com/honestTai/tauri-markdown-reader#project-activity) |
