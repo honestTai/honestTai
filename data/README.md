@@ -2,7 +2,7 @@
 
 [Portfolio](../README.md) · [中文说明](METHODOLOGY.zh-CN.md) · [Methodology](METHODOLOGY.md)
 
-Observed at **2026-10-12T01:58:18Z**. All 37 public repositories, including forks.
+Observed at **2026-10-13T01:54:48Z**. All 38 public repositories, including forks.
 
 ## awesome-lint
 
@@ -115,6 +115,14 @@ Observed at **2026-10-12T01:58:18Z**. All 37 public repositories, including fork
 <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/house-price-ml-visualization.svg"><img src="../assets/metrics/house-price-ml-visualization-light.svg" alt="Retained-event history"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/house-price-ml-visualization-daily.svg"><img src="../assets/metrics/house-price-ml-visualization-daily-light.svg" alt="Observed daily totals"></picture>
+
+## hrouter-canvas
+
+[Repository](https://github.com/honestTai/hrouter-canvas)
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/hrouter-canvas.svg"><img src="../assets/metrics/hrouter-canvas-light.svg" alt="Retained-event history"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/hrouter-canvas-daily.svg"><img src="../assets/metrics/hrouter-canvas-daily-light.svg" alt="Observed daily totals"></picture>
 
 ## HRouter-Desktop
 
