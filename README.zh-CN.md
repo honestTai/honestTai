@@ -40,16 +40,16 @@
 
 | 仓库 | 简介 | 类型 | Stars | Forks | 趋势 |
 | :--- | :--- | :--- | ---: | ---: | :---: |
-| [**geo-console**](https://github.com/honestTai/geo-console) | 基于证据的 AI 可见性监测、品牌提及与内容整改。 | 项目 | 8 | 4 | [↗](https://github.com/honestTai/geo-console#project-activity) |
-| [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | AI 编程工具、供应商配置与模型路由的本地优先工作台。 | 项目 | 6 | 1 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
-| [**rent-project**](https://github.com/honestTai/rent-project) | 租赁运营、电子合同、分期账单与履约管理。 | 项目 | 5 | 0 | [↗](https://github.com/honestTai/rent-project#project-activity) |
-| [**seehtml-ai**](https://github.com/honestTai/seehtml-ai) | AI 创作 HTML，预览并导出演示文稿、图片与视频。 | 项目 | 5 | 0 | [↗](https://github.com/honestTai/seehtml-ai#project-activity) |
-| [**tauri-markdown-reader**](https://github.com/honestTai/tauri-markdown-reader) | 阅读、搜索、编辑本地 Markdown，导出 Word 或 PDF。 | 项目 | 5 | 0 | [↗](https://github.com/honestTai/tauri-markdown-reader#project-activity) |
-| [**wechat-shop-netCore**](https://github.com/honestTai/wechat-shop-netCore) | 用于源码阅读的历史 ASP.NET Core 商城后端。 | 项目 | 4 | 0 | [↗](https://github.com/honestTai/wechat-shop-netCore#project-activity) |
-| [**seedance-movie-mcp**](https://github.com/honestTai/seedance-movie-mcp) | 火山方舟分镜规划、确认后的视频生成与片段拼接。 | 项目 | 3 | 0 | [↗](https://github.com/honestTai/seedance-movie-mcp#project-activity) |
-| [**faliang-codex-ex**](https://github.com/honestTai/faliang-codex-ex) | 写稿、事实核验、WeMD 审稿与微信公众号草稿工作流。 | 项目 | 2 | 0 | [↗](https://github.com/honestTai/faliang-codex-ex#project-activity) |
-| [**honestTai**](https://github.com/honestTai/honestTai) | 双语个人主页、全部公开项目目录与透明统计。 | 个人主页 | 2 | 0 | [↗](https://github.com/honestTai/honestTai#project-activity) |
-| [**honestTai-Tool-Xianyu**](https://github.com/honestTai/honestTai-Tool-Xianyu) | 商品监测、AI 辅助筛选与多渠道通知。 | 项目 | 2 | 0 | [↗](https://github.com/honestTai/honestTai-Tool-Xianyu#project-activity) |
+| [**geo-console**](https://github.com/honestTai/geo-console) | 基于证据的 AI 可见性监测、品牌提及与内容整改。 | 项目 | 8 | 5 | [↗](https://github.com/honestTai/geo-console#project-activity) |
+| [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | AI 编程工具、供应商配置与模型路由的本地优先工作台。 | 项目 | 6 | 2 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
+| [**rent-project**](https://github.com/honestTai/rent-project) | 租赁运营、电子合同、分期账单与履约管理。 | 项目 | 5 | 1 | [↗](https://github.com/honestTai/rent-project#project-activity) |
+| [**seehtml-ai**](https://github.com/honestTai/seehtml-ai) | AI 创作 HTML，预览并导出演示文稿、图片与视频。 | 项目 | 5 | 1 | [↗](https://github.com/honestTai/seehtml-ai#project-activity) |
+| [**tauri-markdown-reader**](https://github.com/honestTai/tauri-markdown-reader) | 阅读、搜索、编辑本地 Markdown，导出 Word 或 PDF。 | 项目 | 5 | 1 | [↗](https://github.com/honestTai/tauri-markdown-reader#project-activity) |
+| [**wechat-shop-netCore**](https://github.com/honestTai/wechat-shop-netCore) | 用于源码阅读的历史 ASP.NET Core 商城后端。 | 项目 | 4 | 1 | [↗](https://github.com/honestTai/wechat-shop-netCore#project-activity) |
+| [**seedance-movie-mcp**](https://github.com/honestTai/seedance-movie-mcp) | 火山方舟分镜规划、确认后的视频生成与片段拼接。 | 项目 | 3 | 1 | [↗](https://github.com/honestTai/seedance-movie-mcp#project-activity) |
+| [**faliang-codex-ex**](https://github.com/honestTai/faliang-codex-ex) | 写稿、事实核验、WeMD 审稿与微信公众号草稿工作流。 | 项目 | 2 | 1 | [↗](https://github.com/honestTai/faliang-codex-ex#project-activity) |
+| [**honestTai**](https://github.com/honestTai/honestTai) | 双语个人主页、全部公开项目目录与透明统计。 | 个人主页 | 2 | 1 | [↗](https://github.com/honestTai/honestTai#project-activity) |
+| [**honestTai-Tool-Xianyu**](https://github.com/honestTai/honestTai-Tool-Xianyu) | 商品监测、AI 辅助筛选与多渠道通知。 | 项目 | 2 | 1 | [↗](https://github.com/honestTai/honestTai-Tool-Xianyu#project-activity) |
 | [**hrouter-market-pulse**](https://github.com/honestTai/hrouter-market-pulse) | A 股、港股与美股研究工作台及 Codex 插件。 | 项目 | 2 | 0 | [↗](https://github.com/honestTai/hrouter-market-pulse#project-activity) |
 | [**springboot-pet-adoption**](https://github.com/honestTai/springboot-pet-adoption) | 宠物领养管理系统开源：SpringBoot + Vue + MySQL，领养、寄养、救助、用品商城，附开发文档与 PlantUML 图源 | 项目 | 1 | 0 | [↗](https://github.com/honestTai/springboot-pet-adoption#project-activity) |
 | [**campus-mutual-aid-cs**](https://github.com/honestTai/campus-mutual-aid-cs) | 校园互助系统开源（计科版）：SpringBoot + Uni-app 多端小程序 + JWT，闲置交易、表白墙、社区互动，附开发文档 | 项目 | 0 | 0 | [↗](https://github.com/honestTai/campus-mutual-aid-cs#project-activity) |
