@@ -46,11 +46,11 @@
 | [**seehtml-ai**](https://github.com/honestTai/seehtml-ai) | AI 创作 HTML，预览并导出演示文稿、图片与视频。 | 项目 | 5 | 1 | [↗](https://github.com/honestTai/seehtml-ai#project-activity) |
 | [**tauri-markdown-reader**](https://github.com/honestTai/tauri-markdown-reader) | 阅读、搜索、编辑本地 Markdown，导出 Word 或 PDF。 | 项目 | 5 | 1 | [↗](https://github.com/honestTai/tauri-markdown-reader#project-activity) |
 | [**wechat-shop-netCore**](https://github.com/honestTai/wechat-shop-netCore) | 用于源码阅读的历史 ASP.NET Core 商城后端。 | 项目 | 4 | 1 | [↗](https://github.com/honestTai/wechat-shop-netCore#project-activity) |
+| [**hrouter-market-pulse**](https://github.com/honestTai/hrouter-market-pulse) | A 股、港股与美股研究工作台及 Codex 插件。 | 项目 | 3 | 1 | [↗](https://github.com/honestTai/hrouter-market-pulse#project-activity) |
 | [**seedance-movie-mcp**](https://github.com/honestTai/seedance-movie-mcp) | 火山方舟分镜规划、确认后的视频生成与片段拼接。 | 项目 | 3 | 1 | [↗](https://github.com/honestTai/seedance-movie-mcp#project-activity) |
 | [**faliang-codex-ex**](https://github.com/honestTai/faliang-codex-ex) | 写稿、事实核验、WeMD 审稿与微信公众号草稿工作流。 | 项目 | 2 | 1 | [↗](https://github.com/honestTai/faliang-codex-ex#project-activity) |
 | [**honestTai**](https://github.com/honestTai/honestTai) | 双语个人主页、全部公开项目目录与透明统计。 | 个人主页 | 2 | 1 | [↗](https://github.com/honestTai/honestTai#project-activity) |
 | [**honestTai-Tool-Xianyu**](https://github.com/honestTai/honestTai-Tool-Xianyu) | 商品监测、AI 辅助筛选与多渠道通知。 | 项目 | 2 | 1 | [↗](https://github.com/honestTai/honestTai-Tool-Xianyu#project-activity) |
-| [**hrouter-market-pulse**](https://github.com/honestTai/hrouter-market-pulse) | A 股、港股与美股研究工作台及 Codex 插件。 | 项目 | 2 | 1 | [↗](https://github.com/honestTai/hrouter-market-pulse#project-activity) |
 | [**springboot-pet-adoption**](https://github.com/honestTai/springboot-pet-adoption) | 宠物领养管理系统开源：SpringBoot + Vue + MySQL，领养、寄养、救助、用品商城，附开发文档与 PlantUML 图源 | 项目 | 1 | 1 | [↗](https://github.com/honestTai/springboot-pet-adoption#project-activity) |
 | [**vue-community-food-ordering**](https://github.com/honestTai/vue-community-food-ordering) | 社区点餐小程序开源：Uni-app + SpringBoot + MySQL，在线点餐、菜单推荐、订单管理，附开发文档与 PlantUML 图源 | 项目 | 1 | 1 | [↗](https://github.com/honestTai/vue-community-food-ordering#project-activity) |
 | [**campus-mutual-aid-cs**](https://github.com/honestTai/campus-mutual-aid-cs) | 校园互助系统开源（计科版）：SpringBoot + Uni-app 多端小程序 + JWT，闲置交易、表白墙、社区互动，附开发文档 | 项目 | 0 | 1 | [↗](https://github.com/honestTai/campus-mutual-aid-cs#project-activity) |
