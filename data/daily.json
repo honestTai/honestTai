@@ -2546,5 +2546,163 @@
         "forks": 1
       }
     }
+  },
+  {
+    "date": "2026-10-24",
+    "observed_at": "2026-10-24T01:39:43Z",
+    "repos": {
+      "awesome-lint": {
+        "stars": 2,
+        "forks": 1
+      },
+      "campus-mutual-aid-cs": {
+        "stars": 0,
+        "forks": 1
+      },
+      "campus-mutual-aid-im": {
+        "stars": 0,
+        "forks": 1
+      },
+      "cc-switch": {
+        "stars": 2,
+        "forks": 1
+      },
+      "collaborative-filtering-food-recommendation": {
+        "stars": 0,
+        "forks": 1
+      },
+      "cosmetics-ingredients-miniprogram": {
+        "stars": 0,
+        "forks": 1
+      },
+      "faliang-codex-ex": {
+        "stars": 2,
+        "forks": 1
+      },
+      "flask-recruitment-visualization": {
+        "stars": 0,
+        "forks": 1
+      },
+      "geo-console": {
+        "stars": 8,
+        "forks": 5
+      },
+      "grad-project-studio": {
+        "stars": 0,
+        "forks": 1
+      },
+      "honestTai": {
+        "stars": 2,
+        "forks": 2
+      },
+      "honestTai-Tool-Xianyu": {
+        "stars": 2,
+        "forks": 1
+      },
+      "house-price-bigdata-analysis": {
+        "stars": 0,
+        "forks": 1
+      },
+      "house-price-ml-visualization": {
+        "stars": 0,
+        "forks": 1
+      },
+      "hrouter-canvas": {
+        "stars": 0,
+        "forks": 1
+      },
+      "HRouter-Desktop": {
+        "stars": 6,
+        "forks": 2
+      },
+      "hrouter-market-pulse": {
+        "stars": 4,
+        "forks": 1
+      },
+      "microservices-community-errand": {
+        "stars": 0,
+        "forks": 1
+      },
+      "php-property-management": {
+        "stars": 0,
+        "forks": 1
+      },
+      "python-novel-data-analysis": {
+        "stars": 0,
+        "forks": 1
+      },
+      "python-web-security-scanner": {
+        "stars": 0,
+        "forks": 1
+      },
+      "recruitment-data-visualization": {
+        "stars": 0,
+        "forks": 1
+      },
+      "rent-project": {
+        "stars": 5,
+        "forks": 1
+      },
+      "seedance-movie-mcp": {
+        "stars": 3,
+        "forks": 1
+      },
+      "seehtml-ai": {
+        "stars": 5,
+        "forks": 1
+      },
+      "spark-takeaway-data-analysis": {
+        "stars": 0,
+        "forks": 1
+      },
+      "springboot-building-materials": {
+        "stars": 0,
+        "forks": 1
+      },
+      "springboot-pet-adoption": {
+        "stars": 1,
+        "forks": 1
+      },
+      "sub2api-1": {
+        "stars": 0,
+        "forks": 1
+      },
+      "tauri-markdown-reader": {
+        "stars": 5,
+        "forks": 1
+      },
+      "tourism-perception-bigdata": {
+        "stars": 0,
+        "forks": 2
+      },
+      "vue-community-food-ordering": {
+        "stars": 1,
+        "forks": 1
+      },
+      "vue-game-company-website": {
+        "stars": 0,
+        "forks": 1
+      },
+      "vue-library-management": {
+        "stars": 0,
+        "forks": 1
+      },
+      "vue-springboot-gym-management": {
+        "stars": 0,
+        "forks": 1
+      },
+      "vue-springboot-photo-sharing": {
+        "stars": 0,
+        "forks": 1
+      },
+      "wechat-shop-netCore": {
+        "stars": 4,
+        "forks": 1
+      },
+      "zongheng-novel-bigdata-analysis": {
+        "stars": 0,
+        "forks": 1
+      }
+    }
   }
 ]
