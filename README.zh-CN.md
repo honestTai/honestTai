@@ -10,7 +10,7 @@
 **你好，我是 honestTai，HRouter 的开发者与运营者。**  
 把日常工作中的需求，做成实用的 AI 工具、业务软件、Skills 与插件。
 
-[**了解 HRouter ↗**](https://hrouter.net/home) &nbsp; · &nbsp; [下载桌面客户端](https://github.com/honestTai/HRouter-Desktop/releases/latest) &nbsp; · &nbsp; [联系我](mailto:honest.tai@outlook.com)
+[**了解 HRouter ↗**](https://hrouter.net/home) &nbsp; · &nbsp; [下载桌面客户端](https://github.com/honestTai/HRouter-Desktop/releases/latest) &nbsp; · &nbsp; [联系我](mailto:honesttibo@mail.grokbot.com)
 
 </div>
 
@@ -120,4 +120,4 @@
 ---
 
 **找到喜欢的项目，试一试；遇到问题，欢迎提 Issue。**  
-部署、定制与合作：[honest.tai@outlook.com](mailto:honest.tai@outlook.com)。
+部署、定制与合作：[honesttibo@mail.grokbot.com](mailto:honesttibo@mail.grokbot.com)。

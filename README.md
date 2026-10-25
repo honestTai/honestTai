@@ -10,7 +10,7 @@
 **Hi, I'm honestTai — the developer and operator behind HRouter.**  
 I turn day-to-day problems into practical AI tools, business software, skills, and plugins.
 
-[**Explore HRouter ↗**](https://hrouter.net/home) &nbsp; · &nbsp; [Download the desktop app](https://github.com/honestTai/HRouter-Desktop/releases/latest) &nbsp; · &nbsp; [Get in touch](mailto:honest.tai@outlook.com)
+[**Explore HRouter ↗**](https://hrouter.net/home) &nbsp; · &nbsp; [Download the desktop app](https://github.com/honestTai/HRouter-Desktop/releases/latest) &nbsp; · &nbsp; [Get in touch](mailto:honesttibo@mail.grokbot.com)
 
 </div>
 
@@ -158,4 +158,4 @@ I also build and operate [**HRouter**](https://hrouter.net/home): model access, 
 ---
 
 **Try something useful. Open an issue. Build on it.**  
-For deployment, customization, and collaboration: [honest.tai@outlook.com](mailto:honest.tai@outlook.com).
+For deployment, customization, and collaboration: [honesttibo@mail.grokbot.com](mailto:honesttibo@mail.grokbot.com).
