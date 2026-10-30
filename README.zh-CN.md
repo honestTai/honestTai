@@ -40,7 +40,7 @@
 
 | 仓库 | 简介 | 类型 | Stars | Forks | 趋势 |
 | :--- | :--- | :--- | ---: | ---: | :---: |
-| [**geo-console**](https://github.com/honestTai/geo-console) | 基于证据的 AI 可见性监测、品牌提及与内容整改。 | 项目 | 8 | 5 | [↗](https://github.com/honestTai/geo-console#project-activity) |
+| [**geo-console**](https://github.com/honestTai/geo-console) | 基于证据的 AI 可见性监测、品牌提及与内容整改。 | 项目 | 9 | 5 | [↗](https://github.com/honestTai/geo-console#project-activity) |
 | [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | AI 编程工具、供应商配置与模型路由的本地优先工作台。 | 项目 | 6 | 2 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
 | [**hrouter-market-pulse**](https://github.com/honestTai/hrouter-market-pulse) | A 股、港股与美股研究工作台及 Codex 插件。 | 项目 | 6 | 1 | [↗](https://github.com/honestTai/hrouter-market-pulse#project-activity) |
 | [**rent-project**](https://github.com/honestTai/rent-project) | 租赁运营、电子合同、分期账单与履约管理。 | 项目 | 5 | 1 | [↗](https://github.com/honestTai/rent-project#project-activity) |
