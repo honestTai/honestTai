@@ -80,7 +80,7 @@ A complete directory, not just a selection. **Fork** means an upstream-derived r
 
 | Repository | What it does | Type | Stars | Forks | Trends |
 | :--- | :--- | :--- | ---: | ---: | :---: |
-| [**geo-console**](https://github.com/honestTai/geo-console) | Evidence-led AI visibility, brand mentions, and content improvements. | Project | 10 | 7 | [↗](https://github.com/honestTai/geo-console#project-activity) |
+| [**geo-console**](https://github.com/honestTai/geo-console) | Evidence-led AI visibility, brand mentions, and content improvements. | Project | 15 | 8 | [↗](https://github.com/honestTai/geo-console#project-activity) |
 | [**hrouter-market-pulse**](https://github.com/honestTai/hrouter-market-pulse) | A market research workbench and Codex plugin for A-share, HK, and US markets. | Project | 7 | 1 | [↗](https://github.com/honestTai/hrouter-market-pulse#project-activity) |
 | [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | A local-first workbench for AI coding agents, providers, and model routes. | Project | 6 | 2 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
 | [**rent-project**](https://github.com/honestTai/rent-project) | Rental operations, electronic contracts, installment bills, and fulfillment. | Project | 5 | 1 | [↗](https://github.com/honestTai/rent-project#project-activity) |
@@ -103,6 +103,7 @@ A complete directory, not just a selection. **Fork** means an upstream-derived r
 | [**house-price-ml-visualization**](https://github.com/honestTai/house-price-ml-visualization) | 房价可视化系统开源：Python 爬虫 + K-means 机器学习聚类 + Django + 高德地图可视化，附开发文档与 PlantUML 架构图 | Project | 0 | 1 | [↗](https://github.com/honestTai/house-price-ml-visualization#project-activity) |
 | [**hrouter-canvas**](https://github.com/honestTai/hrouter-canvas) | Infinite-canvas image generation for coding agents (Claude Code, Codex, opencode, DeepSeek Harness). MCP server + local canvas for any OpenAI-Images or Gemini compatible site. | Project | 0 | 1 | [↗](https://github.com/honestTai/hrouter-canvas#project-activity) |
 | [**microservices-community-errand**](https://github.com/honestTai/microservices-community-errand) | 社区跑腿小程序开源：SpringBoot 微服务 + Nacos + 负载均衡 + 熔断器，下单支付评价全流程，附开发文档 | Project | 0 | 1 | [↗](https://github.com/honestTai/microservices-community-errand#project-activity) |
+| [**motion-library**](https://github.com/honestTai/motion-library) | 视频动效库：152 张配方卡、209 条样片、Remotion 源码和 agent skill | Project | 0 | 0 | [↗](https://github.com/honestTai/motion-library#project-activity) |
 | [**php-property-management**](https://github.com/honestTai/php-property-management) | PHP 物业管理系统开源：FastAdmin（ThinkPHP5）+ MySQL，含业主、缴费、报修、车位、设备管理完整源码 | Project | 0 | 1 | [↗](https://github.com/honestTai/php-property-management#project-activity) |
 | [**python-novel-data-analysis**](https://github.com/honestTai/python-novel-data-analysis) | Python 小说数据分析系统开源：爬虫 + Spark SQL + SpringBoot + Vue 可视化，附开发文档与 PlantUML 图源 | Project | 0 | 1 | [↗](https://github.com/honestTai/python-novel-data-analysis#project-activity) |
 | [**python-web-security-scanner**](https://github.com/honestTai/python-web-security-scanner) | Web 安全检测系统开源：Python + Flask + Vue，Nmap 端口扫描、POC 漏洞检测、CMS 指纹识别，附开发文档 | Project | 0 | 1 | [↗](https://github.com/honestTai/python-web-security-scanner#project-activity) |

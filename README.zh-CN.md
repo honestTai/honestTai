@@ -40,7 +40,7 @@
 
 | 仓库 | 简介 | 类型 | Stars | Forks | 趋势 |
 | :--- | :--- | :--- | ---: | ---: | :---: |
-| [**geo-console**](https://github.com/honestTai/geo-console) | 基于证据的 AI 可见性监测、品牌提及与内容整改。 | 项目 | 10 | 7 | [↗](https://github.com/honestTai/geo-console#project-activity) |
+| [**geo-console**](https://github.com/honestTai/geo-console) | 基于证据的 AI 可见性监测、品牌提及与内容整改。 | 项目 | 15 | 8 | [↗](https://github.com/honestTai/geo-console#project-activity) |
 | [**hrouter-market-pulse**](https://github.com/honestTai/hrouter-market-pulse) | A 股、港股与美股研究工作台及 Codex 插件。 | 项目 | 7 | 1 | [↗](https://github.com/honestTai/hrouter-market-pulse#project-activity) |
 | [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | AI 编程工具、供应商配置与模型路由的本地优先工作台。 | 项目 | 6 | 2 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
 | [**rent-project**](https://github.com/honestTai/rent-project) | 租赁运营、电子合同、分期账单与履约管理。 | 项目 | 5 | 1 | [↗](https://github.com/honestTai/rent-project#project-activity) |
@@ -63,6 +63,7 @@
 | [**house-price-ml-visualization**](https://github.com/honestTai/house-price-ml-visualization) | 房价可视化系统开源：Python 爬虫 + K-means 机器学习聚类 + Django + 高德地图可视化，附开发文档与 PlantUML 架构图 | 项目 | 0 | 1 | [↗](https://github.com/honestTai/house-price-ml-visualization#project-activity) |
 | [**hrouter-canvas**](https://github.com/honestTai/hrouter-canvas) | Infinite-canvas image generation for coding agents (Claude Code, Codex, opencode, DeepSeek Harness). MCP server + local canvas for any OpenAI-Images or Gemini compatible site. | 项目 | 0 | 1 | [↗](https://github.com/honestTai/hrouter-canvas#project-activity) |
 | [**microservices-community-errand**](https://github.com/honestTai/microservices-community-errand) | 社区跑腿小程序开源：SpringBoot 微服务 + Nacos + 负载均衡 + 熔断器，下单支付评价全流程，附开发文档 | 项目 | 0 | 1 | [↗](https://github.com/honestTai/microservices-community-errand#project-activity) |
+| [**motion-library**](https://github.com/honestTai/motion-library) | 视频动效库：152 张配方卡、209 条样片、Remotion 源码和 agent skill | 项目 | 0 | 0 | [↗](https://github.com/honestTai/motion-library#project-activity) |
 | [**php-property-management**](https://github.com/honestTai/php-property-management) | PHP 物业管理系统开源：FastAdmin（ThinkPHP5）+ MySQL，含业主、缴费、报修、车位、设备管理完整源码 | 项目 | 0 | 1 | [↗](https://github.com/honestTai/php-property-management#project-activity) |
 | [**python-novel-data-analysis**](https://github.com/honestTai/python-novel-data-analysis) | Python 小说数据分析系统开源：爬虫 + Spark SQL + SpringBoot + Vue 可视化，附开发文档与 PlantUML 图源 | 项目 | 0 | 1 | [↗](https://github.com/honestTai/python-novel-data-analysis#project-activity) |
 | [**python-web-security-scanner**](https://github.com/honestTai/python-web-security-scanner) | Web 安全检测系统开源：Python + Flask + Vue，Nmap 端口扫描、POC 漏洞检测、CMS 指纹识别，附开发文档 | 项目 | 0 | 1 | [↗](https://github.com/honestTai/python-web-security-scanner#project-activity) |

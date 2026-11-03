@@ -2,7 +2,7 @@
 
 [Portfolio](../README.md) · [中文说明](METHODOLOGY.zh-CN.md) · [Methodology](METHODOLOGY.md)
 
-Observed at **2026-11-01T01:25:36Z**. All 38 public repositories, including forks.
+Observed at **2026-11-03T01:25:26Z**. All 39 public repositories, including forks.
 
 ## awesome-lint
 
@@ -147,6 +147,14 @@ Observed at **2026-11-01T01:25:36Z**. All 38 public repositories, including fork
 <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/microservices-community-errand.svg"><img src="../assets/metrics/microservices-community-errand-light.svg" alt="Retained-event history"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/microservices-community-errand-daily.svg"><img src="../assets/metrics/microservices-community-errand-daily-light.svg" alt="Observed daily totals"></picture>
+
+## motion-library
+
+[Repository](https://github.com/honestTai/motion-library)
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/motion-library.svg"><img src="../assets/metrics/motion-library-light.svg" alt="Retained-event history"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/motion-library-daily.svg"><img src="../assets/metrics/motion-library-daily-light.svg" alt="Observed daily totals"></picture>
 
 ## php-property-management
 
