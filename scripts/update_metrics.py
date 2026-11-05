@@ -263,8 +263,7 @@ def main():
         body += text(x, 93, number, 44, '#f0f5ff', 700) + text(x, 122, label, 11)
     body += text(32, 157, f'Public repositories only · Includes forked repositories · Updated {now[:10]} UTC', 11)
     write_themed('assets/overview.svg', svg(body, 'Public repository overview', 180))
-    for name, zh in [('README.md', False), ('README.zh-CN.md', True)]:
-        update_directory(name, repos, config, zh)
+    # README no longer embeds the repository directory; the full list lives in data/README.md.
     index = '# Public repository metrics\n\n[Portfolio](../README.md) · [中文说明](METHODOLOGY.zh-CN.md) · [Methodology](METHODOLOGY.md)\n\n'
     index += f'Observed at **{now}**. All {len(repos)} public repositories, including forks.\n\n'
     for r in repos:
