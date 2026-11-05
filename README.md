@@ -80,8 +80,8 @@ A complete directory, not just a selection. **Fork** means an upstream-derived r
 
 | Repository | What it does | Type | Stars | Forks | Trends |
 | :--- | :--- | :--- | ---: | ---: | :---: |
-| [**geo-console**](https://github.com/honestTai/geo-console) | Evidence-led AI visibility, brand mentions, and content improvements. | Project | 15 | 8 | [↗](https://github.com/honestTai/geo-console#project-activity) |
-| [**hrouter-market-pulse**](https://github.com/honestTai/hrouter-market-pulse) | A market research workbench and Codex plugin for A-share, HK, and US markets. | Project | 7 | 1 | [↗](https://github.com/honestTai/hrouter-market-pulse#project-activity) |
+| [**geo-console**](https://github.com/honestTai/geo-console) | Evidence-led AI visibility, brand mentions, and content improvements. | Project | 19 | 9 | [↗](https://github.com/honestTai/geo-console#project-activity) |
+| [**hrouter-market-pulse**](https://github.com/honestTai/hrouter-market-pulse) | A market research workbench and Codex plugin for A-share, HK, and US markets. | Project | 8 | 1 | [↗](https://github.com/honestTai/hrouter-market-pulse#project-activity) |
 | [**HRouter-Desktop**](https://github.com/honestTai/HRouter-Desktop) | A local-first workbench for AI coding agents, providers, and model routes. | Project | 6 | 2 | [↗](https://github.com/honestTai/HRouter-Desktop#project-activity) |
 | [**rent-project**](https://github.com/honestTai/rent-project) | Rental operations, electronic contracts, installment bills, and fulfillment. | Project | 5 | 1 | [↗](https://github.com/honestTai/rent-project#project-activity) |
 | [**seehtml-ai**](https://github.com/honestTai/seehtml-ai) | Create HTML with AI; preview and export presentations, images, and video. | Project | 5 | 1 | [↗](https://github.com/honestTai/seehtml-ai#project-activity) |
