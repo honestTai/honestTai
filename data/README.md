@@ -2,7 +2,7 @@
 
 [Portfolio](../README.md) · [中文说明](METHODOLOGY.zh-CN.md) · [Methodology](METHODOLOGY.md)
 
-Observed at **2026-11-16T01:29:50Z**. All 39 public repositories, including forks.
+Observed at **2026-11-17T01:25:56Z**. All 40 public repositories, including forks.
 
 ## awesome-lint
 
@@ -51,6 +51,14 @@ Observed at **2026-11-16T01:29:50Z**. All 39 public repositories, including fork
 <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/cosmetics-ingredients-miniprogram.svg"><img src="../assets/metrics/cosmetics-ingredients-miniprogram-light.svg" alt="Retained-event history"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/cosmetics-ingredients-miniprogram-daily.svg"><img src="../assets/metrics/cosmetics-ingredients-miniprogram-daily-light.svg" alt="Observed daily totals"></picture>
+
+## DouYin_Spider
+
+[Repository](https://github.com/honestTai/DouYin_Spider)
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/DouYin_Spider.svg"><img src="../assets/metrics/DouYin_Spider-light.svg" alt="Retained-event history"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/DouYin_Spider-daily.svg"><img src="../assets/metrics/DouYin_Spider-daily-light.svg" alt="Observed daily totals"></picture>
 
 ## faliang-codex-ex
 
