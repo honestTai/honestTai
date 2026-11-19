@@ -2,7 +2,15 @@
 
 [Portfolio](../README.md) · [中文说明](METHODOLOGY.zh-CN.md) · [Methodology](METHODOLOGY.md)
 
-Observed at **2026-11-17T01:25:56Z**. All 40 public repositories, including forks.
+Observed at **2026-11-19T01:25:33Z**. All 42 public repositories, including forks.
+
+## auto-video-workflow
+
+[Repository](https://github.com/honestTai/auto-video-workflow)
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/auto-video-workflow.svg"><img src="../assets/metrics/auto-video-workflow-light.svg" alt="Retained-event history"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/auto-video-workflow-daily.svg"><img src="../assets/metrics/auto-video-workflow-daily-light.svg" alt="Observed daily totals"></picture>
 
 ## awesome-lint
 
@@ -156,13 +164,13 @@ Observed at **2026-11-17T01:25:56Z**. All 40 public repositories, including fork
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/microservices-community-errand-daily.svg"><img src="../assets/metrics/microservices-community-errand-daily-light.svg" alt="Observed daily totals"></picture>
 
-## motion-library
+## motion-lib
 
-[Repository](https://github.com/honestTai/motion-library)
+[Repository](https://github.com/honestTai/motion-lib)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/motion-library.svg"><img src="../assets/metrics/motion-library-light.svg" alt="Retained-event history"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/motion-lib.svg"><img src="../assets/metrics/motion-lib-light.svg" alt="Retained-event history"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/motion-library-daily.svg"><img src="../assets/metrics/motion-library-daily-light.svg" alt="Observed daily totals"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/motion-lib-daily.svg"><img src="../assets/metrics/motion-lib-daily-light.svg" alt="Observed daily totals"></picture>
 
 ## php-property-management
 
@@ -227,6 +235,14 @@ Observed at **2026-11-17T01:25:56Z**. All 40 public repositories, including fork
 <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/spark-takeaway-data-analysis.svg"><img src="../assets/metrics/spark-takeaway-data-analysis-light.svg" alt="Retained-event history"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/spark-takeaway-data-analysis-daily.svg"><img src="../assets/metrics/spark-takeaway-data-analysis-daily-light.svg" alt="Observed daily totals"></picture>
+
+## Spider_XHS
+
+[Repository](https://github.com/honestTai/Spider_XHS)
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/Spider_XHS.svg"><img src="../assets/metrics/Spider_XHS-light.svg" alt="Retained-event history"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/Spider_XHS-daily.svg"><img src="../assets/metrics/Spider_XHS-daily-light.svg" alt="Observed daily totals"></picture>
 
 ## springboot-building-materials
 
