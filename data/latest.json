@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-11-23T01:26:35Z",
+  "observed_at": "2026-11-24T01:26:10Z",
   "source": "https://api.github.com",
   "repos": [
     {
@@ -12,11 +12,11 @@
       "forks": 0,
       "open_issues_and_prs": 0,
       "language": "Python",
-      "pushed_at": "2026-11-20T02:35:57Z",
+      "pushed_at": "2026-11-23T13:23:36Z",
       "star_dates": [],
       "fork_dates": [],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "awesome-lint",
@@ -37,7 +37,7 @@
         "2026-10-17T08:59:06Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "campus-mutual-aid-cs",
@@ -55,7 +55,7 @@
         "2026-10-15T08:01:12Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "campus-mutual-aid-im",
@@ -73,7 +73,7 @@
         "2026-10-15T08:01:18Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "cc-switch",
@@ -94,7 +94,7 @@
         "2026-10-17T08:59:10Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "collaborative-filtering-food-recommendation",
@@ -112,7 +112,7 @@
         "2026-10-15T08:01:43Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "cosmetics-ingredients-miniprogram",
@@ -130,7 +130,7 @@
         "2026-10-15T08:01:52Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "DouYin_Spider",
@@ -146,7 +146,7 @@
       "star_dates": [],
       "fork_dates": [],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "faliang-codex-ex",
@@ -167,7 +167,7 @@
         "2026-10-14T15:48:12Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "flask-recruitment-visualization",
@@ -185,7 +185,7 @@
         "2026-10-15T08:02:00Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "geo-console",
@@ -193,7 +193,7 @@
       "is_fork": false,
       "archived": false,
       "created_at": "2026-08-30T12:35:06Z",
-      "stars": 39,
+      "stars": 40,
       "forks": 15,
       "open_issues_and_prs": 0,
       "language": "TypeScript",
@@ -226,7 +226,7 @@
         "2026-11-19T10:52:13Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "grad-project-studio",
@@ -244,7 +244,7 @@
         "2026-10-15T08:02:07Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "honestTai",
@@ -256,7 +256,7 @@
       "forks": 2,
       "open_issues_and_prs": 0,
       "language": "Python",
-      "pushed_at": "2026-11-22T01:26:18Z",
+      "pushed_at": "2026-11-23T01:27:06Z",
       "star_dates": [
         "2026-09-15T13:08:41Z",
         "2026-09-16T03:31:58Z"
@@ -265,8 +265,8 @@
         "2026-10-14T15:48:16Z",
         "2026-10-23T07:52:47Z"
       ],
-      "star_history_observed_at": "2026-11-23T01:26:35Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "star_history_observed_at": "2026-11-24T01:26:10Z",
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "honestTai-Tool-Xianyu",
@@ -287,7 +287,7 @@
         "2026-10-14T15:48:21Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "house-price-bigdata-analysis",
@@ -305,7 +305,7 @@
         "2026-10-15T08:02:16Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "house-price-ml-visualization",
@@ -323,7 +323,7 @@
         "2026-10-15T08:02:31Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "hrouter-canvas",
@@ -341,7 +341,7 @@
         "2026-10-15T23:53:38Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "HRouter-Desktop",
@@ -366,7 +366,7 @@
         "2026-10-14T15:46:20Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "hrouter-market-pulse",
@@ -389,7 +389,23 @@
         "2026-11-19T02:44:20Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
+    },
+    {
+      "name": "magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "is_fork": true,
+      "archived": false,
+      "created_at": "2026-11-23T15:25:26Z",
+      "stars": 0,
+      "forks": 0,
+      "open_issues_and_prs": 0,
+      "language": null,
+      "pushed_at": "2026-11-23T15:48:25Z",
+      "star_dates": [],
+      "fork_dates": [],
+      "star_history_observed_at": null,
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "microservices-community-errand",
@@ -407,7 +423,7 @@
         "2026-10-15T23:54:03Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "motion-lib",
@@ -415,17 +431,17 @@
       "is_fork": false,
       "archived": false,
       "created_at": "2026-11-17T11:51:03Z",
-      "stars": 3,
+      "stars": 4,
       "forks": 1,
       "open_issues_and_prs": 0,
       "language": "JavaScript",
-      "pushed_at": "2026-11-21T02:59:20Z",
+      "pushed_at": "2026-11-23T14:48:55Z",
       "star_dates": [],
       "fork_dates": [
         "2026-11-20T02:27:14Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "php-property-management",
@@ -443,7 +459,7 @@
         "2026-10-15T23:54:07Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "python-novel-data-analysis",
@@ -461,7 +477,7 @@
         "2026-10-15T23:54:11Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "python-web-security-scanner",
@@ -479,7 +495,7 @@
         "2026-10-15T23:54:15Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "recruitment-data-visualization",
@@ -497,7 +513,7 @@
         "2026-10-15T23:54:32Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "rent-project",
@@ -523,7 +539,7 @@
         "2026-11-17T18:49:56Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "seedance-movie-mcp",
@@ -545,7 +561,7 @@
         "2026-10-14T15:47:50Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "seehtml-ai",
@@ -570,7 +586,7 @@
         "2026-10-14T15:47:00Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "spark-takeaway-data-analysis",
@@ -588,7 +604,7 @@
         "2026-10-15T23:54:49Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "Spider_XHS",
@@ -604,7 +620,7 @@
       "star_dates": [],
       "fork_dates": [],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "springboot-building-materials",
@@ -622,7 +638,7 @@
         "2026-10-15T23:59:19Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "springboot-pet-adoption",
@@ -640,7 +656,7 @@
         "2026-10-15T08:00:51Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "sub2api-1",
@@ -658,7 +674,7 @@
         "2026-10-17T08:59:32Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "tauri-markdown-reader",
@@ -682,7 +698,7 @@
         "2026-10-14T15:47:16Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "tourism-perception-bigdata",
@@ -701,7 +717,7 @@
         "2026-10-23T07:52:02Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "vue-community-food-ordering",
@@ -719,7 +735,7 @@
         "2026-10-15T23:59:45Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "vue-game-company-website",
@@ -737,7 +753,7 @@
         "2026-10-17T08:58:26Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "vue-library-management",
@@ -755,7 +771,7 @@
         "2026-10-17T08:58:40Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "vue-springboot-gym-management",
@@ -773,7 +789,7 @@
         "2026-10-17T08:58:44Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "vue-springboot-photo-sharing",
@@ -791,7 +807,7 @@
         "2026-10-17T08:58:51Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "wechat-shop-netCore",
@@ -814,7 +830,7 @@
         "2026-10-14T15:47:36Z"
       ],
       "star_history_observed_at": "2026-10-07T06:30:01Z",
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     },
     {
       "name": "zongheng-novel-bigdata-analysis",
@@ -832,7 +848,7 @@
         "2026-10-17T08:58:58Z"
       ],
       "star_history_observed_at": null,
-      "fork_history_observed_at": "2026-11-23T01:26:35Z"
+      "fork_history_observed_at": "2026-11-24T01:26:10Z"
     }
   ]
 }

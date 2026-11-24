@@ -2,7 +2,7 @@
 
 [Portfolio](../README.md) · [中文说明](METHODOLOGY.zh-CN.md) · [Methodology](METHODOLOGY.md)
 
-Observed at **2026-11-23T01:26:35Z**. All 42 public repositories, including forks.
+Observed at **2026-11-24T01:26:10Z**. All 43 public repositories, including forks.
 
 ## auto-video-workflow
 
@@ -155,6 +155,14 @@ Observed at **2026-11-23T01:26:35Z**. All 42 public repositories, including fork
 <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/hrouter-market-pulse.svg"><img src="../assets/metrics/hrouter-market-pulse-light.svg" alt="Retained-event history"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/hrouter-market-pulse-daily.svg"><img src="../assets/metrics/hrouter-market-pulse-daily-light.svg" alt="Observed daily totals"></picture>
+
+## magpie
+
+[Repository](https://github.com/honestTai/magpie)
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/magpie.svg"><img src="../assets/metrics/magpie-light.svg" alt="Retained-event history"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../assets/metrics/magpie-daily.svg"><img src="../assets/metrics/magpie-daily-light.svg" alt="Observed daily totals"></picture>
 
 ## microservices-community-errand
 
