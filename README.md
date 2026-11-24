@@ -7,7 +7,7 @@
 
 **Hi, I'm honestTai, the developer and operator behind HRouter.** I turn day-to-day problems into tools you can run.
 
-[HRouter](https://hrouter.net/home) · [Desktop app](https://github.com/honestTai/HRouter-Desktop/releases/latest) · [All repositories](https://github.com/honestTai?tab=repositories) · [Contact](mailto:honesttibo@mail.grokbot.com)
+[HRouter](https://hrouter.net/) · [Models & Pricing](https://hrouter.net/models/) · [Claude Code](https://hrouter.net/docs/claude-code/) · [Codex CLI](https://hrouter.net/docs/codex/) · [Gemini CLI](https://hrouter.net/docs/gemini-cli/) · [DeepSeek](https://hrouter.net/docs/deepseek/) · [Desktop app](https://github.com/honestTai/HRouter-Desktop/releases/latest) · [All repositories](https://github.com/honestTai?tab=repositories) · [Contact](mailto:honesttibo@mail.grokbot.com)
 
 **English** · [简体中文](README.zh-CN.md)
 
@@ -81,7 +81,7 @@ Independently found and fixed a Critical EasyPay payment-callback forgery flaw i
 
 <div align="center">
 
-Made by **honestTai** · [HRouter](https://hrouter.net/home) · [Email](mailto:honesttibo@mail.grokbot.com)
+Made by **honestTai** · [HRouter](https://hrouter.net/) · [Email](mailto:honesttibo@mail.grokbot.com)
 
 **Try something useful. Open an issue. Build on it.**
 
