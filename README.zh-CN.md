@@ -7,7 +7,7 @@
 
 **你好，我是 honestTai，HRouter 的开发者与运营者。** 把日常需求做成能直接运行的工具。
 
-[HRouter](https://hrouter.net/home) · [下载桌面客户端](https://github.com/honestTai/HRouter-Desktop/releases/latest) · [全部仓库](https://github.com/honestTai?tab=repositories) · [联系我](mailto:honesttibo@mail.grokbot.com)
+[HRouter 官网](https://hrouter.net/) · [模型价格与状态](https://hrouter.net/models/) · [Claude Code](https://hrouter.net/docs/claude-code/) · [Codex CLI](https://hrouter.net/docs/codex/) · [Gemini CLI](https://hrouter.net/docs/gemini-cli/) · [DeepSeek](https://hrouter.net/docs/deepseek/) · [下载桌面客户端](https://github.com/honestTai/HRouter-Desktop/releases/latest) · [全部仓库](https://github.com/honestTai?tab=repositories) · [联系我](mailto:honesttibo@mail.grokbot.com)
 
 [English](README.md) · **简体中文**
 
@@ -81,7 +81,7 @@
 
 <div align="center">
 
-Made by **honestTai** · [HRouter](https://hrouter.net/home) · [Email](mailto:honesttibo@mail.grokbot.com)
+Made by **honestTai** · [HRouter](https://hrouter.net/) · [Email](mailto:honesttibo@mail.grokbot.com)
 
 **找到喜欢的项目，试一试；遇到问题，欢迎提 Issue。**
 
